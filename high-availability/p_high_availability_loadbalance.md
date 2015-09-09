@@ -1,3 +1,8 @@
+Title: Set Up KAAZING Gateway as a Load Balancer
+Product: Gateway
+Section: Clusters and Load Balancing
+DocType: Regular
+
 Set Up KAAZING Gateway as a Load Balancer
 =============================================================================================
 

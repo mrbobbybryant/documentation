@@ -1,3 +1,8 @@
+Title: Require Clients to Provide Certificates to the Gateway
+Product: Gateway
+Section: Security
+DocType: Regular
+
 Require Clients to Provide Certificates to the Gateway
 ===============================================================================
 

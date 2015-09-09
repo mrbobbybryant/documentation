@@ -1,3 +1,8 @@
+Title: About Security with KAAZING Gateway
+Product: Gateway
+Section: Security
+DocType: Regular
+
 About Security with KAAZING Gateway
 ======================================================================================
 

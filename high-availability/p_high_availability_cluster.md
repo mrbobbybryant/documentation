@@ -1,3 +1,8 @@
+Title: Configure a KAAZING Gateway Cluster
+Product: Gateway
+Section: Clusters and Load Balancing
+DocType: Regular
+
 Configure a KAAZING Gateway Cluster
 =======================================================================================
 

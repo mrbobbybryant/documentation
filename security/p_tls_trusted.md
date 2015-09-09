@@ -1,3 +1,8 @@
+Title: Secure the Gateway Using Trusted Certificates
+Product: Gateway
+Section: Security
+DocType: Regular
+
 Secure the Gateway Using Trusted Certificates
 =====================================================================================================
 

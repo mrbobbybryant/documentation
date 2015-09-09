@@ -1,3 +1,8 @@
+Title: General Client Information
+Product: Gateway
+Section: Cross-Platform Topics
+DocType: Regular
+
 General Client Information
 ================================================
 
@@ -53,7 +58,7 @@ In version 3.x of KAAZING Gateway, numeric values for `readyState` are different
 The following table includes both the previous numeric values and the current numeric values.
 
 | State      | Numeric Value | Previous Value | Description                                                            |
-|------------|---------------|----------------|------------------------------------------------------------------------|
+|:-----------|:--------------|:---------------|:-----------------------------------------------------------------------|
 | Connecting | 0             | 0              | The connection is not yet established.                                 |
 | Open       | 1             | 1              | The WebSocket connection is established and communication is possible. |
 | Closing    | 2             | Not included.  | The connection is going through the closing handshake.                 |

@@ -1,3 +1,8 @@
+Title: Configure Logging for an Embedded Gateway
+Product: Gateway
+Section: Embedded
+DocType: Regular
+
 Configure Logging for an Embedded Gateway
 =======================================================================
 

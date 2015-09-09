@@ -1,3 +1,8 @@
+Title: How Authentication and Authorization Work with the Gateway
+Product: Gateway
+Section: Security
+DocType: Regular
+
 How Authentication and Authorization Work with the Gateway
 =================================================================================================================
 

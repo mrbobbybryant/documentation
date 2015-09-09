@@ -1,3 +1,8 @@
+Title: Integrate an Existing Custom Login Module into the Gateway
+Product: Gateway
+Section: Security
+DocType: Regular
+
 Integrate an Existing Custom Login Module into the Gateway
 =============================================================================================================
 

@@ -1,3 +1,8 @@
+Title: About Gateway Configuration
+Product: Gateway
+Section: Configuration
+DocType: Regular
+
 About Gateway Configuration
 ========================================================
 

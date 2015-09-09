@@ -1,3 +1,8 @@
+Title: Configure the Gateway on an Internal Network
+Product: Gateway
+Section: Configuration
+DocType: Regular
+
 Configure the Gateway on an Internal Network
 ==============================================================================================================
 

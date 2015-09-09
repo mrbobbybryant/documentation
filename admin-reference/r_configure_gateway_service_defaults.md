@@ -1,7 +1,12 @@
+Title: Service-Defaults Reference
+Product: Gateway
+Section: Configuration
+DocType: Regular
+
 Service-Defaults Reference
 =================================================
 
-The `service-defaults` section of the Gateway configuration file allows you to configure default values that apply to all services running on the Gateway. 
+The `service-defaults` section of the Gateway configuration file allows you to configure default values that apply to all services running on the Gateway.
 
 Overview
 ----------------------------------
@@ -27,11 +32,11 @@ service-defaults
 
 Each `service-defaults` element can contain any of the following subordinate elements:
 
-| Subordinate Element                         | Description                                                                                                                                                                                                                                                                |
-|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| accept-options  | Use the `accept-options` element to add options that apply to all services on the Gateway. The complete list of `accept-options` are fully documented in the [Service Reference](r_configure_gateway_service.md#accept-options-and-connect-options). |
-| connect-options  | Use the `connect-options` element to add options that apply to all services on the Gateway. The complete list of  `connect-options` are fully documented in the [Service Reference](r_configure_gateway_service.md#accept-options-and-connect-options).  |
-| mime-mapping | Use the `mime-mappings` element to define the way the Gateway maps a file extension to a MIME type. Each `mime-mapping` entry defines the HTTP Content-Type header value to be returned when a client or browser requests a file that ends with the specified extension. The `service-defaults` section in the default Gateway configuration file contains default MIME type mappings that apply to all services on the Gateway. The complete list of `mime-mapping` extensions and `mime-type`'s are documented in the [Service Reference](r_configure_gateway_service.md#mime-mapping). |
+| Subordinate Element | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|:--------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| accept-options      | Use the `accept-options` element to add options that apply to all services on the Gateway. The complete list of `accept-options` are fully documented in the [Service Reference](r_configure_gateway_service.md#accept-options-and-connect-options).                                                                                                                                                                                                                                                                                                                                      |
+| connect-options     | Use the `connect-options` element to add options that apply to all services on the Gateway. The complete list of  `connect-options` are fully documented in the [Service Reference](r_configure_gateway_service.md#accept-options-and-connect-options).                                                                                                                                                                                                                                                                                                                                   |
+| mime-mapping        | Use the `mime-mappings` element to define the way the Gateway maps a file extension to a MIME type. Each `mime-mapping` entry defines the HTTP Content-Type header value to be returned when a client or browser requests a file that ends with the specified extension. The `service-defaults` section in the default Gateway configuration file contains default MIME type mappings that apply to all services on the Gateway. The complete list of `mime-mapping` extensions and `mime-type`'s are documented in the [Service Reference](r_configure_gateway_service.md#mime-mapping). |
 
 #### Example of setting default accept-options
 
@@ -59,7 +64,7 @@ The following example shows `ssl.encryption` disabled, sample network protocol b
 
 #### Example of Mime Mapping
 
-A service can return files of various types to a client.  Generally, HTTP mandates that a response containing a file also specify a Content-Type header describing the file contents.  You may use a <mime-mapping> tag to specify the Content-Type value to be returned for files with a particular name extension. 
+A service can return files of various types to a client.  Generally, HTTP mandates that a response containing a file also specify a Content-Type header describing the file contents.  You may use a <mime-mapping> tag to specify the Content-Type value to be returned for files with a particular name extension.
 
 The following example shows two entries for the same file extension; in this case, when the Gateway receives a request for a file with an `HTML` extension, the Gateway will respond with a Content-Type header value of `text/html` (not `image/png`). This example indicates that for files with names ending in '.png', the header 'Content-Type: image/png' should be returned by the Gateway, and 'Content-Type: text/html' should be returned for .html files. You can specify mappings in the both the `service-defaults` block and in any `service` blocks.  If a mapping for a given extension is specified in both the `service-defaults` block and a `service` block, the `service`-level mapping will be used when providing files from that service.
 

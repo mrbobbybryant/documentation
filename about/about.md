@@ -1,3 +1,8 @@
+Title: Documentation Conventions
+Product: Gateway
+Section: Essentials
+DocType: Regular
+
 Documentation Conventions
 ================================================
 
@@ -14,13 +19,13 @@ Text Conventions
 
 The following text conventions are used in the KAAZING Gateway topics:
 
-| Convention    | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Convention    | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|:--------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ${*variable*} | A variable within the dollar-sign and curly brace format specifies a property default value in the Gateway configuration file, for example `GATEWAY_HOME/conf/gateway-config.xml`. Property default values are propagated throughout the configuration when the Gateway starts. For example, you could specify `gateway.example.com` as the default value for the `${gateway.hostname}` property. Variables shown in italics but without the dollar-sign and curly brace format indicate placeholder variables for which you supply particular values. |
-| **bold**      | Bold typeface indicates graphical user interface elements associated with an action, or terms defined in text or the glossary. It also indicates your location in a series of steps such as in the "Before You Begin" section in any procedural topic.                                                                                                                                                                                                                                                                                                       |
-| *italic*      | Italic type indicates book titles, emphasis, or placeholder variables for which you supply particular values.                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| `monospace`   | Monospace type indicates commands within a paragraph, URLs, code in examples, text that appears on the screen, or text that you enter.                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| ...             | An ellipsis indicates that a portion of an example that would normally be present is not shown.
+| **bold**      | Bold typeface indicates graphical user interface elements associated with an action, or terms defined in text or the glossary. It also indicates your location in a series of steps such as in the "Before You Begin" section in any procedural topic.                                                                                                                                                                                                                                                                                                 |
+| *italic*      | Italic type indicates book titles, emphasis, or placeholder variables for which you supply particular values.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| `monospace`   | Monospace type indicates commands within a paragraph, URLs, code in examples, text that appears on the screen, or text that you enter.                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ...           | An ellipsis indicates that a portion of an example that would normally be present is not shown.                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
 
 About URI Syntax
@@ -63,25 +68,25 @@ About Ports
 
 The following table lists ports that are commonly used in the documentation.
 
-| Port Number | Description                                                                                                                                |
-|-------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| 21-22       | Default shell and secure shell ports                                                                                                       |
-| 80          | Default HTTP and WS port                                                                                                                   |
-| 88          | Default Kerberos port                                                                                                                      |
-| 443         | Default HTTPS and WSS port                                                                                                                 |
-| 1080        | Recommended port for the socks:// transport                                                                                                |
-| 1443        | Recommended port for the socks+ssl:// transport                                                                                            |
-| 2020        | Default JMX Management Service port                                                                                                        |
-| 5222        | Default XMPP port                                                                                                                          |
-| 5672        | Default AMQP port                                                                                                                          |
-| 7222        | Default TIBCO Enterprise Message Service™ port                                                                                             |
+| Port Number | Description                                                                                                                  |
+|:------------|:-----------------------------------------------------------------------------------------------------------------------------|
+| 21-22       | Default shell and secure shell ports                                                                                         |
+| 80          | Default HTTP and WS port                                                                                                     |
+| 88          | Default Kerberos port                                                                                                        |
+| 443         | Default HTTPS and WSS port                                                                                                   |
+| 1080        | Recommended port for the socks:// transport                                                                                  |
+| 1443        | Recommended port for the socks+ssl:// transport                                                                              |
+| 2020        | Default JMX Management Service port                                                                                          |
+| 5222        | Default XMPP port                                                                                                            |
+| 5672        | Default AMQP port                                                                                                            |
+| 7222        | Default TIBCO Enterprise Message Service™ port                                                                               |
 | 8000-8001   | Default Gateway WebSocket Service and echo service port, and for the SNMP Management Service in a single Gateway             |
 | 8080-8081   | Default Gateway clustered WebSocket Service and echo service ports, and for the SNMP Management Service in a Gateway cluster |
-| 8161        | Default Apache ActiveMQ Admin console                                                                                                      |
-| 54327       | Recommended cluster multicast (UDP) port - Hazelcast port number)                                                                          |
-| 61613       | Default Apache ActiveMQ JMS ports                                                                                                          |
-| 61616-61617 | Default Apache ActiveMQ TCP and SSL ports                                                                                                  |
-| 61222       | Default Apache ActiveMQ XMPP port                                                                                                          |
+| 8161        | Default Apache ActiveMQ Admin console                                                                                        |
+| 54327       | Recommended cluster multicast (UDP) port - Hazelcast port number)                                                            |
+| 61613       | Default Apache ActiveMQ JMS ports                                                                                            |
+| 61616-61617 | Default Apache ActiveMQ TCP and SSL ports                                                                                    |
+| 61222       | Default Apache ActiveMQ XMPP port                                                                                            |
 
 About KAAZING_HOME
 ---------------------------------------------

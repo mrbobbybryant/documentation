@@ -1,3 +1,8 @@
+Title: What’s Involved in Secure Communication
+Product: Gateway
+Section: Security
+DocType: Regular
+
 What’s Involved in Secure Communication
 ===========================================================================================
 

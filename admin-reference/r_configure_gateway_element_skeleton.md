@@ -1,3 +1,8 @@
+Title: Configuration Skeleton
+Product: Gateway
+Section: Configuration
+DocType: Regular
+
 Configuration Skeleton
 ============================================
 
@@ -48,7 +53,7 @@ You can view and link to all Gateway configuration elements and properties using
                 -   [prepared.connection.count](r_configure_gateway_service.md#preparedconnectioncount)
                 -   [virtual.host](r_configure_gateway_service.md#virtualhost)
 
-            -   [jms](r_conf_jms.md#jms) ![This feature is available in KAAZING Gateway - Enterprise Edition](../images/enterprise-feature.png) 
+            -   [jms](r_conf_jms.md#jms) ![This feature is available in KAAZING Gateway - Enterprise Edition](../images/enterprise-feature.png)
             -   [jms.proxy](r_conf_jms.md#jmsproxy)  ![This feature is available in KAAZING Gateway - Enterprise Edition](../images/enterprise-feature.png)
 			-   [http.proxy](r_configure_gateway_service.md#httpproxy)
 

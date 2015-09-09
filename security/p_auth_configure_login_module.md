@@ -1,3 +1,8 @@
+Title: Configure a Chain of Login Modules
+Product: Gateway
+Section: Security
+DocType: Regular
+
 Configure a Chain of Login Modules
 ===================================================================================
 
@@ -91,7 +96,7 @@ The `success` element controls the behavior of the individual login modules, but
 The following table describes how the order of login modules and the setting of the `success` element controls authentication processing:
 
 | `success` values | Description                                    | On success or failure ...                                                                                                                                                                                                            |
-|------------------|------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:-----------------|:-----------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `required`       | The `login-module` must succeed.               | If it succeeds or fails, then authentication continues to proceed down the `login-module` list.                                                                                                                                      |
 | `requisite`      | The `login-module` must succeed.               | If it succeeds, then authentication continues down the `login-module` list. If it fails, then authentication stops its process down the `login-module` list and the Gateway denies the WebSocket creation request `(403 Forbidden`). |
 | `sufficient`     | The `login-module` is not required to succeed. | If it succeeds, then authentication stops its process down the `login-module` list and the Gateway opens the WebSocket connection. If it fails, authentication continues down the `login-module` list.                               |

@@ -1,3 +1,8 @@
+Title: Using Kerberos V5 Network Authentication with the Gateway
+Product: Gateway
+Section: Security
+DocType: Regular
+
 Using Kerberos V5 Network Authentication with the Gateway ![This feature is available in KAAZING Gateway - Enterprise Edition](../images/enterprise-feature.png)
 =================================================================================================================================
 

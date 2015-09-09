@@ -1,3 +1,8 @@
+Title: Troubleshoot KAAZING Gateway Security
+Product: Gateway
+Section: Monitor and Troubleshoot
+DocType: Regular
+
 Troubleshoot KAAZING Gateway Security
 =================================================================
 
@@ -8,12 +13,12 @@ Troubleshooting KAAZING Gateway
 
 This topic is part of [Troubleshoot the Gateway](o_troubleshoot.md) that groups troubleshooting topics into the categories shown in the following table:
 
-| What Problem Are You Having? | Topic or Reference                                                             |
-|------------------------------|--------------------------------------------------------------------------------|
+| What Problem Are You Having? | Topic or Reference                                                                                |
+|:-----------------------------|:--------------------------------------------------------------------------------------------------|
 | Configuration and startup    | [Troubleshoot KAAZING Gateway Configuration and Startup](p_troubleshoot_gateway_configuration.md) |
 | Clusters and load balancing  | [Troubleshoot KAAZING Gateway Cluster and Load Balancing](p_troubleshoot_high_availability.md)    |
-| **Security**                 | **Troubleshoot KAAZING Gateway Security**                                |
-| Clients                      | [Troubleshoot Your Clients](p_dev_troubleshoot.md)                           |
+| **Security**                 | **Troubleshoot KAAZING Gateway Security**                                                         |
+| Clients                      | [Troubleshoot Your Clients](p_dev_troubleshoot.md)                                                |
 
 What Problem Are You Having?
 ----------------------------
@@ -79,15 +84,15 @@ The preferred name for the auth-constraint configuration option has changed to a
         The following message indicates the revalidate system for WebSocket is enabled.
 
         ``` bash
-        2012-02-29 10:03:56,305 INFO   session.revalidate - 
+        2012-02-29 10:03:56,305 INFO   session.revalidate -
                            [wsx#8] REVALIDATE COMMAND ENABLED [period=2s; timeout=2s]
         ```
 
         The following message indicates the Gateway sent a revalidate message to the client.
 
         ``` bash
-        2012-02-29 10:03:58,309 INFO   session.revalidate - 
-                           [wsx#8] REVALIDATE COMMAND SENT: VALI 
+        2012-02-29 10:03:58,309 INFO   session.revalidate -
+                           [wsx#8] REVALIDATE COMMAND SENT: VALI
         /echoAuth/;a/f0tCswwNoLNfaKb4cOERYuTT56Ai6UAN?.kl=Y
         ```
 
@@ -185,7 +190,7 @@ The error displays if you do not include the `type` parameter in the `keystore` 
           <file>keystore.db</file>
           <password-file>keystore.pw</password-file>
       </keystore>
-              
+
       <truststore>
           <file>truststore.db</file>
       </truststore>

@@ -1,3 +1,8 @@
+Title: Configure a Ticket Granting Gateway
+Product: Gateway
+Section: Security
+DocType: Regular
+
 Configure a Ticket Granting Gateway ![This feature is available in KAAZING Gateway - Enterprise Edition](../images/enterprise-feature.png)
 =======================================================================================
 

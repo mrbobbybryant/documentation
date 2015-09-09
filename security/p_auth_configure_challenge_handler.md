@@ -1,3 +1,8 @@
+Title: Configure a Challenge Handler on the Client
+Product: Gateway
+Section: Security
+DocType: Regular
+
 Configure a Challenge Handler on the Client
 =======================================================================================================
 

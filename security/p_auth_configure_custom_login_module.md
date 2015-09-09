@@ -1,3 +1,8 @@
+Title: Create a Custom Login Module
+Product: Gateway
+Section: Security
+DocType: Regular
+
 Create a Custom Login Module
 =========================================================================
 

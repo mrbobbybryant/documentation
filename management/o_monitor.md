@@ -1,14 +1,19 @@
+Title: Monitor the Gateway
+Product: Gateway
+Section: Management
+DocType: Regular
+
 Monitor the Gateway
 ============================================
 
 This checklist provides the steps necessary to monitor KAAZING Gateway:
 
-| \#  | Step                                                                        | Topic or Reference                                                                                         |
-|-----|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-| 1   | Learn about monitoring KAAZING Gateway.                                | [Introduction to Monitoring KAAZING Gateway](#introduction-to-monitoring-kaazing-gateway)                                           |
-| 2   | Configure secure monitoring services.                                       | [Secure KAAZING Gateway Monitoring](p_monitor_configure_secure.md)                                    |
-| 3   | Monitor a Gateway or Gateway cluster.                         | [Monitor with Command Center](p_monitor_cc.md) (**Recommended**) [Monitor with JMX](p_monitor_jmx.md) |
-| 4   | Troubleshoot common problems with startup, security, clusters, and clients. | [Troubleshoot the Gateway](../troubleshooting/o_troubleshoot.md)                                                |
+| \# | Step                                                                        | Topic or Reference                                                                                    |
+|:---|:----------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------|
+| 1  | Learn about monitoring KAAZING Gateway.                                     | [Introduction to Monitoring KAAZING Gateway](#introduction-to-monitoring-kaazing-gateway)             |
+| 2  | Configure secure monitoring services.                                       | [Secure KAAZING Gateway Monitoring](p_monitor_configure_secure.md)                                    |
+| 3  | Monitor a Gateway or Gateway cluster.                                       | [Monitor with Command Center](p_monitor_cc.md) (**Recommended**) [Monitor with JMX](p_monitor_jmx.md) |
+| 4  | Troubleshoot common problems with startup, security, clusters, and clients. | [Troubleshoot the Gateway](../troubleshooting/o_troubleshoot.md)                                      |
 
 Introduction to Monitoring KAAZING Gateway
 --------------------------------------------------------------------------

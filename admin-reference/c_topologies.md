@@ -1,3 +1,8 @@
+Title: Common KAAZING Gateway Production Topologies
+Product: Gateway
+Section: Configuration
+DocType: Regular
+
 Common KAAZING Gateway Production Topologies
 ========================================================================
 

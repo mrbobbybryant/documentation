@@ -1,3 +1,8 @@
+Title: Index
+Product: Gateway
+Section:
+DocType: Index
+
 KAAZING Documentation for Enterprise Edition
 ============================================
 

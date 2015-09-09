@@ -1,3 +1,8 @@
+Title: Gateway-Config Reference
+Product: Gateway
+Section: Configuration
+DocType: Regular
+
 Gateway-Config Reference
 ===============================================
 
@@ -23,12 +28,12 @@ gateway-config
 
 `gateway-config` element is the root-level element for gateway configuration. `gateway-config` contains the following elements:
 
-| Element          | Description                                                                                                           |
-|------------------|-----------------------------------------------------------------------------------------------------------------------|
-| service          | The element for configuring a gateway service (see [service reference](r_configure_gateway_service.md))                          |
+| Element          | Description                                                                                                                             |
+|:-----------------|:----------------------------------------------------------------------------------------------------------------------------------------|
+| service          | The element for configuring a gateway service (see [service reference](r_configure_gateway_service.md))                                 |
 | service-defaults | The element for configuring default options gateway service (see [service-defaults reference](r_configure_gateway_service_defaults.md)) |
-| security         | The element for configuring gateway security (see [security reference](r_configure_gateway_security.md))                         |
-| cluster          | The element for configuring gateway clustering (see [cluster reference](r_configure_gateway_cluster.md))                         |
+| security         | The element for configuring gateway security (see [security reference](r_configure_gateway_security.md))                                |
+| cluster          | The element for configuring gateway clustering (see [cluster reference](r_configure_gateway_cluster.md))                                |
 
 ### Example
 

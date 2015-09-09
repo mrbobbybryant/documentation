@@ -1,3 +1,8 @@
+Title: Create the Embedded Gateway Object
+Product: Gateway
+Section: Embedded
+DocType: Regular
+
 Create the Embedded Gateway Object
 ==================================
 

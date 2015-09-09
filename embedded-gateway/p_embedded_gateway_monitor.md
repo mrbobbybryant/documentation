@@ -1,3 +1,8 @@
+Title: Monitor and Manage an Embedded Gateway
+Product: Gateway
+Section: Embedded
+DocType: Regular
+
 Monitor and Manage an Embedded Gateway
 ====================================================================
 

@@ -1,3 +1,8 @@
+Title: Use the Embedded Gateway Methods
+Product: Gateway
+Section: Embedded
+DocType: Regular
+
 Use the Embedded Gateway Methods
 ================================
 
@@ -20,13 +25,13 @@ Embedded Gateway Methods
 
 An embedded Gateway interface exposes the following methods:
 
-| Method                            | Description                                                      | Returns                                                                                                               |
-|-----------------------------------|------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| [setProperties()](#setproperties-method) | Configures the properties of an embedded Gateway.             | Nothing.                                                                                                              |
-| [getProperties()](#getproperties-method) | Obtains the current set of properties on an embedded Gateway. | Name/value pairs for properties configured on the embedded Gateway.                                                |
-| [launch()](#launch-method)               | Starts an embedded Gateway.                                   | Nothing. Any exceptions are thrown when the Gateway starts.                                                        |
-| [destroy()](#destroy-method)             | Stops an embedded Gateway.                                    | Nothing. Any exceptions are thrown when the Gateway stops.                                                         |
-| setMBeanServer()                  | Set an MBeanServer on an embedded Gateway.                    | Nothing. For more information, see [Monitor and Manage an Embedded Gateway](../embedded-gateway/p_embedded_gateway_monitor.md). |
+| Method                                   | Description                                                   | Returns                                                                                                                         |
+|:-----------------------------------------|:--------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------|
+| [setProperties()](#setproperties-method) | Configures the properties of an embedded Gateway.             | Nothing.                                                                                                                        |
+| [getProperties()](#getproperties-method) | Obtains the current set of properties on an embedded Gateway. | Name/value pairs for properties configured on the embedded Gateway.                                                             |
+| [launch()](#launch-method)               | Starts an embedded Gateway.                                   | Nothing. Any exceptions are thrown when the Gateway starts.                                                                     |
+| [destroy()](#destroy-method)             | Stops an embedded Gateway.                                    | Nothing. Any exceptions are thrown when the Gateway stops.                                                                      |
+| setMBeanServer()                         | Set an MBeanServer on an embedded Gateway.                    | Nothing. For more information, see [Monitor and Manage an Embedded Gateway](../embedded-gateway/p_embedded_gateway_monitor.md). |
 
 ### Example
 

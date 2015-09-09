@@ -1,3 +1,8 @@
+Title: About KAAZING Gateway Releases and Upgrades
+Product: Gateway
+Section: Essentials
+DocType: Regular
+
 About KAAZING Gateway Releases and Upgrades
 ==================================================================================================
 
@@ -14,9 +19,9 @@ Supported Gateway Upgrade Paths
 
 The following table shows the supported paths for Gateway upgrades (major and minor) and patch release updates.
 
-| If your current Gateway release is... | And you want to upgrade to Gateway release ... | Then follow these upgrade instructions ...              | And consider the impact on KAAZING client migration and backward compatibility \*               |
-|---------------------------------------|------------------------------------------------|---------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| 4.0.x               | 5.0.*x* (for example, 4.0.5 to 5.0.2)         | [Upgrade the Gateway](o_upgrade.md)                     |                                                                                                 | |
+| If your current Gateway release is... | And you want to upgrade to Gateway release ... | Then follow these upgrade instructions ... | And consider the impact on KAAZING client migration and backward compatibility \* |
+|:--------------------------------------|:-----------------------------------------------|:-------------------------------------------|:----------------------------------------------------------------------------------|
+| 4.0.x                                 | 5.0.*x* (for example, 4.0.5 to 5.0.2)          | [Upgrade the Gateway](o_upgrade.md)        | |                                                                                 |
 
 \* See [KAAZING Clients and Backward Compatibility](#kaazing-clients-and-backward-compatibility)
 

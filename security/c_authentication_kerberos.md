@@ -1,3 +1,8 @@
+Title: About Kerberos V5 Network Authentication
+Product: Gateway
+Section: Security
+DocType: Regular
+
 About Kerberos V5 Network Authentication ![This feature is available in KAAZING Gateway - Enterprise Edition](../images/enterprise-feature.png)
 =============================================================================================================
 
