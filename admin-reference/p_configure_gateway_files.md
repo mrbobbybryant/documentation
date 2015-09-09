@@ -1,3 +1,8 @@
+Title: Configure KAAZING Gateway
+Product: Gateway
+Section: Configuration
+DocType: Regular
+
 Configure KAAZING Gateway
 ======================================================
 
@@ -76,7 +81,7 @@ The standard way to set up and maintain your Gateway configuration is by editing
         | [Security](../admin-reference/r_configure_gateway_security.md)  | Configure security for the service and specify authentication and authorization for users. To better understand how the security parameters that you specify in KAAZING Gateway configuration work together, see [What's Involved in Secure Communication](../security/u_secure_client_gateway_communication.md).|
         | [Cluster](../admin-reference/r_configure_gateway_cluster.md) | Use the `cluster` section to configure one or more Gateway's to participate in a KAAZING Gateway cluster, and describe the elements and properties you can configure to achieve high availability. |
         | Additional Services | [Configure the Gateway to Use Multicast](p_configure_multicast.md), [Configure the Gateway on an Internal Network](../internal-network/p_protocol_binding.md), [Implement Protocol Injection](../security/p_auth_protocol_injection.md), [Implement User Identity Promotion](../security/p_auth_user_identity_promotion.md), and more can be found on the [KAAZING Documentation](../index.md) page.  |           
-        
+
     -   Consider configuring multiple services on the Gateway to use the same hostname and port, for example, as a way to organize multiple connection requests on the same server as the Gateway and avoid conflicts. See [Configuring Multiple Services on the Same Host and Port](c_configure_gateway_multiple_services.md) for complete information.
 
 5.  Test the Gateway configuration using the customized configuration file. For detailed instructions about starting and stopping the Gateway, see "How do I start and stop the Gateway?" in [Setting Up the Gateway](../about/setup-guide.md).

@@ -1,3 +1,8 @@
+Title: Configuration Element Index
+Product: Gateway
+Section: Configuration
+DocType: Regular
+
 Configuration Element Index
 ===========================
 

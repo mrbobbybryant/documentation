@@ -1,3 +1,8 @@
+Title: Configure Authorization
+Product: Gateway
+Section: Security
+DocType: Regular
+
 Configure Authorization
 =========================================================================
 

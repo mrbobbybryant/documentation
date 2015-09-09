@@ -1,3 +1,8 @@
+Title: What Happens During Authentication
+Product: Gateway
+Section: Security
+DocType: Regular
+
 What Happens During Authentication
 ==================================================================================
 

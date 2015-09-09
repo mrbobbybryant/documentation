@@ -1,3 +1,8 @@
+Title: Set Up Your Development Environment
+Product: Gateway
+Section: Embedded
+DocType: Regular
+
 Set Up Your Development Environment
 ===================================
 

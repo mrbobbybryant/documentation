@@ -1,3 +1,8 @@
+Title: About Authentication and Authorization
+Product: Gateway
+Section: Security
+DocType: Regular
+
 About Authentication and Authorization
 =======================================================================================
 

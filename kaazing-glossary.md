@@ -1,3 +1,8 @@
+Title: KAAZING Glossary
+Product: Gateway
+Section: Essentials
+DocType: Index
+
 KAAZING Glossary
 ================
 
@@ -98,12 +103,12 @@ This is the directory that contains KAAZING Gateway and its components. The defa
 -   If you download and unpack the Gateway using the standalone method, then you can unpack the download into a directory of your choice (for example, `C:\kaazing` or `/home/username/kaazing`).
 -   If you install the Gateway using the Windows or Linux Installer, then the installation creates the destination directory location as described in the following table, where *edition* refers to the product edition (for example, JMS, XMPP, or AMQP) and *version* refers to the version number (for example, 4.0):
 
-| Operating System                                        | *GATEWAY_HOME*                                          |
-|---------------------------------------------------------|----------------------------------------------------------|
+| Operating System                                        | *GATEWAY_HOME*                                           |
+|:--------------------------------------------------------|:---------------------------------------------------------|
 | Windows: 32-bit                                         | `C:\Program Files\Kaazing\edition\version\Gateway`       |
 | Windows: 64-bit                                         | `C:\Program Files\Kaazing\edition\version\Gateway`       |
 | Windows: 32-bit installation on a 64-bit Windows system | `C:\Program Files (x86)\Kaazing\edition\version\Gateway` |
-| Linux: Debian-based system                              | `/usr/share/kaazing/edition/version/`                  |
+| Linux: Debian-based system                              | `/usr/share/kaazing/edition/version/`                    |
 
 You can find more information about `GATEWAY_HOME` and the directory structure that is set up during installation in *Setting Up KAAZING Gateway*. To read this document, go to the [Kaazing Documentation home page](index.md), choose the edition (for example, HTML5 or JMS) of the Gateway you are running, and open *Setting Up KAAZING Gateway*. See also [*KAAZING_HOME*](#kaazing_home).
 

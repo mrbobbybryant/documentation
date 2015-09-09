@@ -1,3 +1,8 @@
+Title: Configure the HTTP Challenge Scheme
+Product: Gateway
+Section: Security
+DocType: Regular
+
 Configure the HTTP Challenge Scheme
 ==========================================================================================
 

@@ -1,3 +1,8 @@
+Title: Configuring Kerberos V5 Network Authentication Overview
+Product: Gateway
+Section: Security
+DocType: Regular
+
 Configuring Kerberos V5 Network Authentication Overview ![This feature is available in KAAZING Gateway - Enterprise Edition](../images/enterprise-feature.png)
 ============================================================================================================================
 

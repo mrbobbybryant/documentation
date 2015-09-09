@@ -1,3 +1,8 @@
+Title: Integrate RabbitMQ Messaging
+Product: Gateway
+Section: Configuration
+DocType: Regular
+
 Integrate RabbitMQ Messaging
 ============================
 

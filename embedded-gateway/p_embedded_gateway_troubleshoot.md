@@ -1,3 +1,8 @@
+Title: Troubleshoot Your Embedded Gateway
+Product: Gateway
+Section: Embedded
+DocType: Regular
+
 Troubleshoot Your Embedded Gateway
 ==================================
 

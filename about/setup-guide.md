@@ -1,3 +1,8 @@
+Title: Setting Up the Gateway
+Product: Gateway
+Section: Essentials
+DocType: Regular
+
 Setting Up the Gateway
 =========================
 

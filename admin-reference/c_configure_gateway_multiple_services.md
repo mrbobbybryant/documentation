@@ -1,3 +1,8 @@
+Title: Configuring Multiple Services on the Same Host and Port
+Product: Gateway
+Section: Configuration
+DocType: Regular
+
 Configuring Multiple Services on the Same Host and Port
 ============================================================================================================
 

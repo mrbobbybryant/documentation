@@ -1,3 +1,8 @@
+Title: Configure the Gateway to Use Multicast
+Product: Gateway
+Section: Configuration
+DocType: Regular
+
 Configure the Gateway to Use Multicast
 =======================================================================================
 

@@ -1,3 +1,8 @@
+Title: About HTTPS and WSS
+Product: Gateway
+Section: Security
+DocType: Regular
+
 About HTTPS and WSS
 ======================================================================
 

@@ -1,3 +1,8 @@
+Title: Transport Layer Security (TLS/SSL) Concepts
+Product: Gateway
+Section: Security
+DocType: Regular
+
 Transport Layer Security (TLS/SSL) Concepts
 ============================================================================================
 

@@ -1,3 +1,8 @@
+Title: Secure KAAZING Gateway Monitoring
+Product: Gateway
+Section: Management
+DocType: Regular
+
 Secure KAAZING Gateway Monitoring
 ====================================================================================
 

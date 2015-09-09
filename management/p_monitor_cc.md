@@ -1,3 +1,8 @@
+Title: Monitor with Command Center
+Product: Gateway
+Section: Management
+DocType: Regular
+
 Monitor with Command Center
 ===================================================================================
 

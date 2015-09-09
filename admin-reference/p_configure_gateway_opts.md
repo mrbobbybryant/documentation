@@ -1,10 +1,15 @@
+Title: Configure KAAZING Gateway Using the GATEWAY\_OPTS Environment Variable
+Product: Gateway
+Section: Configuration
+DocType: Regular
+
 Configure KAAZING Gateway Using the GATEWAY\_OPTS Environment Variable
 ===================================================================================================================================
 
 On occasion you might want the flexibility to change the configuration that is set up in your Gateway configuration file (see [About KAAZING Gateway Configuration Files](c_configure_gateway_concepts.md#about-kaazing-gateway-configuration-files)) or change the Java process temporarily without modifying the configuration file itself. For example, you might want to define your own startup scripts that specify different log4j configurations or different log directories. You can do that by setting the `GATEWAY_OPTS` environment variable (or any other Java option or command-line setting) to include any of the properties in the following table:
 
-| Variable                     | Description                                                   |
-|------------------------------|---------------------------------------------------------------|
+| Variable                     | Description                                                |
+|:-----------------------------|:-----------------------------------------------------------|
 | `GATEWAY_HOME`               | The directory path for the Gateway home                    |
 | `GATEWAY_CONFIG`             | The name of the Gateway configuration file                 |
 | `GATEWAY_CONFIG_DIRECTORY`   | The path for the Gateway configuration directory           |

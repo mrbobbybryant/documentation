@@ -1,3 +1,8 @@
+Title: Troubleshoot KAAZING Gateway Configuration and Startup
+Product: Gateway
+Section: Monitor and Troubleshoot
+DocType: Regular
+
 Troubleshoot KAAZING Gateway Configuration and Startup
 ==================================================================================
 
@@ -8,12 +13,12 @@ Troubleshooting KAAZING Gateway
 
 This topic is part of [Troubleshoot KAAZING Gateway](o_troubleshoot.md) that groups troubleshooting topics into the categories shown in the following table:
 
-| What Problem Are You Having?  | Topic or Reference                                                          |
-|-------------------------------|-----------------------------------------------------------------------------|
-| **Configuration and startup** | **Troubleshoot KAAZING Gateway Configuration and Startup**            |
+| What Problem Are You Having?  | Topic or Reference                                                                             |
+|:------------------------------|:-----------------------------------------------------------------------------------------------|
+| **Configuration and startup** | **Troubleshoot KAAZING Gateway Configuration and Startup**                                     |
 | Clusters and load balancing   | [Troubleshoot KAAZING Gateway Cluster and Load Balancing](p_troubleshoot_high_availability.md) |
-| Security                      | [Troubleshoot KAAZING Gateway Security](p_troubleshoot_security.md)             |
-| Clients                       | [Troubleshoot Your Clients](p_dev_troubleshoot.md)                        |
+| Security                      | [Troubleshoot KAAZING Gateway Security](p_troubleshoot_security.md)                            |
+| Clients                       | [Troubleshoot Your Clients](p_dev_troubleshoot.md)                                             |
 
 What Problem Are You Having?
 ----------------------------
