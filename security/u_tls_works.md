@@ -1,10 +1,9 @@
+---
 Title: How TLS/SSL Works with the Gateway
 Product: Gateway
 Section: Security
 DocType: Regular
-
-How TLS/SSL Works with the Gateway
-===========================================================
+---
 
 You can secure network traffic between KAAZING Gateway and its clients and back-end servers using the widespread networking protocol Transport Layer Security (TLS, also known as SSL). TLS/SSL is the protocol you use when accessing secure websites with a URL that begins with https://. TLS/SSL protects data from modification during transit and verifies its authenticity. WebSocket connections are secured by tunneling through TLS/SSL using the WebSocket Secure (WSS) URL scheme wss://. By securing Gateway communication with TLS/SSL, you protect the confidentiality, integrity, and availability of your network communications.
 

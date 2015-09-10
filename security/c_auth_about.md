@@ -1,10 +1,9 @@
+---
 Title: About Authentication and Authorization
 Product: Gateway
 Section: Security
 DocType: Regular
-
-About Authentication and Authorization
-=======================================================================================
+---
 
 You can configure KAAZING Gateway for secure communication between clients and the Gateway to ensure that only the intended recipient of a message can read the transmitted message and can trust that the message is from the expected source. The Gateway protects your data and authenticates that users are who they say they are, and that they take only authorized actions.
 

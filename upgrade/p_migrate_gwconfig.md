@@ -1,10 +1,9 @@
+---
 Title: Migrate the Gateway Configuration
 Product: Gateway
 Section: Essentials
 DocType: Regular
-
-Migrate the Gateway Configuration
-==========================================================
+---
 
 This topic explains how to migrate your existing configuration to a new Gateway release. Before you migrate your Gateway configuration. review the procedures in [Upgrade the Gateway](o_upgrade.md).
 

@@ -1,10 +1,9 @@
+---
 Title: What Happens During Authentication
 Product: Gateway
 Section: Security
 DocType: Regular
-
-What Happens During Authentication
-==================================================================================
+---
 
 The following figure shows what happens when a client application (for example, a JavaScript application running in a browser) requests a WebSocket connection to KAAZING Gateway. The request is made as part of a hosted web application that uses a third-party token provider.
 

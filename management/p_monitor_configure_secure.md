@@ -1,10 +1,9 @@
+---
 Title: Secure KAAZING Gateway Monitoring
 Product: Gateway
 Section: Management
 DocType: Regular
-
-Secure KAAZING Gateway Monitoring
-====================================================================================
+---
 
 KAAZING Gateway monitoring is secured by an explicitly specified security realm name. The `realm-name` element refers to one of the named realms inside the `service` element.
 

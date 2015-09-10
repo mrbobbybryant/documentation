@@ -1,10 +1,9 @@
+---
 Title: Create the Embedded Gateway Object
 Product: Gateway
 Section: Embedded
 DocType: Regular
-
-Create the Embedded Gateway Object
-==================================
+---
 
 This procedure describes how to create Gateway objects within your Java program.
 

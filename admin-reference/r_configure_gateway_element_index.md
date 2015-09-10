@@ -1,10 +1,9 @@
+---
 Title: Configuration Element Index
 Product: Gateway
 Section: Configuration
 DocType: Regular
-
-Configuration Element Index
-===========================
+---
 
 You can view and link to all Gateway configuration elements and properties using these lists:
 

@@ -1,10 +1,9 @@
+---
 Title: Monitor and Manage an Embedded Gateway
 Product: Gateway
 Section: Embedded
 DocType: Regular
-
-Monitor and Manage an Embedded Gateway
-====================================================================
+---
 
 By default, an embedded Gateway uses the \<management\> element in the Gateway configuration file for its management configuration. By using this element, you can track and manage user sessions using Java's built-in Java Management and Monitoring Console ([JConsole](http://docs.oracle.com/javase/7/docs/technotes/guides/management/jconsole.html)) and the management service configured on the Gateway. This is the same configuration used by the Gateway when it is run as a standalone application, system service, or as an embedded service.
 

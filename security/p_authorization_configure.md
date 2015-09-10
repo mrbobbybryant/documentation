@@ -1,10 +1,9 @@
+---
 Title: Configure Authorization
 Product: Gateway
 Section: Security
 DocType: Regular
-
-Configure Authorization
-=========================================================================
+---
 
 After the client is authenticated, then authorization works to verify and grant access to sensitive resources. Access to services provided by KAAZING Gateway can be limited to only authorized users by setting authorization constraints. You configure the `authorization-constraint` element in the Gateway configuration to specify the user roles that are authorized to perform management operations for Gateway services. The `authorization-constraint` element contains the `require-role` element.
 

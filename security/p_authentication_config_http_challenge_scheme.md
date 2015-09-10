@@ -1,10 +1,9 @@
+---
 Title: Configure the HTTP Challenge Scheme
 Product: Gateway
 Section: Security
 DocType: Regular
-
-Configure the HTTP Challenge Scheme
-==========================================================================================
+---
 
 In this procedure, you will learn how to configure authentication by defining the `security` element and specifying the HTTP challenge scheme that protects the service.
 

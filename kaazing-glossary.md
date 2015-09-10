@@ -1,10 +1,9 @@
-Title: KAAZING Glossary
+---
+Title: Kaazing Glossary
 Product: Gateway
 Section: Essentials
 DocType: Index
-
-KAAZING Glossary
-================
+---
 
 This document describes the terminology used in KAAZING's products and product [documentation](index.md).
 

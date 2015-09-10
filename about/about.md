@@ -1,10 +1,9 @@
+---
 Title: Documentation Conventions
 Product: Gateway
 Section: Essentials
 DocType: Regular
-
-Documentation Conventions
-================================================
+---
 
 This topic contains the following sections:
 -   [Text Conventions](#text-conventions)

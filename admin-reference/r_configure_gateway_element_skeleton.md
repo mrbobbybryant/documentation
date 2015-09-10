@@ -1,10 +1,9 @@
+---
 Title: Configuration Skeleton
 Product: Gateway
 Section: Configuration
 DocType: Regular
-
-Configuration Skeleton
-============================================
+---
 
 You can view and link to all Gateway configuration elements and properties using these lists:
 

@@ -1,10 +1,9 @@
+---
 Title: General Client Information
 Product: Gateway
 Section: Cross-Platform Topics
 DocType: Regular
-
-General Client Information
-================================================
+---
 
 This topic contains information that applies to clients built using the KAAZING Gateway JavaScript, Java, and Objective-C WebSocket APIs. In addition, native WebSocket clients, meaning clients that implement the [WebSocket API standard](http://www.w3.org/TR/websockets/) but are built without the KAAZING Gateway APIs, can take advantage of the features of the Gateway described in this topic.
 

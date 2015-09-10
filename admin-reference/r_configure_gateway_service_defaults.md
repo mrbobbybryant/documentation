@@ -1,10 +1,9 @@
+---
 Title: Service-Defaults Reference
 Product: Gateway
 Section: Configuration
 DocType: Regular
-
-Service-Defaults Reference
-=================================================
+---
 
 The `service-defaults` section of the Gateway configuration file allows you to configure default values that apply to all services running on the Gateway.
 

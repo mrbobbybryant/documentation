@@ -1,10 +1,9 @@
+---
 Title: Troubleshoot the Gateway
 Product: Gateway
 Section: Monitor and Troubleshoot
 DocType: Regular
-
-Troubleshoot the Gateway
-================================================================================
+---
 
 This checklist provides the tasks necessary to troubleshoot KAAZING Gateway:
 

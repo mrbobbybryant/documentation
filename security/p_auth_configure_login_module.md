@@ -1,10 +1,9 @@
+---
 Title: Configure a Chain of Login Modules
 Product: Gateway
 Section: Security
 DocType: Regular
-
-Configure a Chain of Login Modules
-===================================================================================
+---
 
 You configure one or more login modules, called a *chain of login modules*, to instruct the Gateway on how to validate user credentials with a user database and to determine a set of authorized roles. The chain of login modules decode and verify the credentials, and (along with the challenge handler) handle the challenge/response authentication sequence of events.
 

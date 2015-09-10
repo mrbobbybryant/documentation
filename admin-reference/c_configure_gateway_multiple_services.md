@@ -1,10 +1,9 @@
+---
 Title: Configuring Multiple Services on the Same Host and Port
 Product: Gateway
 Section: Configuration
 DocType: Regular
-
-Configuring Multiple Services on the Same Host and Port
-============================================================================================================
+---
 
 Typically, for a network connection, you configure an IP address or configure a DNS hostname that is resolved to an IP address, and a port. For example:
 

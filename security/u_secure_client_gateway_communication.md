@@ -1,10 +1,9 @@
+---
 Title: What’s Involved in Secure Communication
 Product: Gateway
 Section: Security
 DocType: Regular
-
-What’s Involved in Secure Communication
-===========================================================================================
+---
 
 To better understand how the security parameters that you specify in KAAZING Gateway configuration (for example, `GATEWAY_HOME/conf/gateway-config.xml`) work together, let's take a detailed look at what is involved in the secure communication between the browser and KAAZING Gateway.
 

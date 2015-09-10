@@ -1,10 +1,9 @@
+---
 Title: Configure the Gateway on an Internal Network
 Product: Gateway
 Section: Configuration
 DocType: Regular
-
-Configure the Gateway on an Internal Network
-==============================================================================================================
+---
 
 This document describes how to configure KAAZING Gateway in an internal network using the [*protocol*.bind](../admin-reference/r_configure_gateway_service.md#protocolbind) element. In this procedure you will do the following:
 

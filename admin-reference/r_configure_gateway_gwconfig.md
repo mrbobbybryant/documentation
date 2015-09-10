@@ -1,10 +1,9 @@
+---
 Title: Gateway-Config Reference
 Product: Gateway
 Section: Configuration
 DocType: Regular
-
-Gateway-Config Reference
-===============================================
+---
 
 This document describes the top-level `gateway-config` element.
 

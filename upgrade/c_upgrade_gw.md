@@ -1,10 +1,9 @@
+---
 Title: About KAAZING Gateway Releases and Upgrades
 Product: Gateway
 Section: Essentials
 DocType: Regular
-
-About KAAZING Gateway Releases and Upgrades
-==================================================================================================
+---
 
 The KAAZING Gateway release number consists of three digits separated by dots, with software changes denoted in order of major, minor, and maintenance release numbers. For example, KAAZING Gateway release 5.*x*.*y* is represented as:
 

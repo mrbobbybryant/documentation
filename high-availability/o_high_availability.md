@@ -1,10 +1,9 @@
+---
 Title: Configure the Gateway for High Availability
 Product: Gateway
 Section: Clusters and Load Balancing
 DocType: Regular
-
-Configure the Gateway for High Availability
-=============================================================================================
+---
 
 This checklist provides the steps necessary to configure KAAZING Gateway for high availability:
 

@@ -1,10 +1,9 @@
+---
 Title: Configure KAAZING Gateway
 Product: Gateway
 Section: Configuration
 DocType: Regular
-
-Configure KAAZING Gateway
-======================================================
+---
 
 By default, the Gateway uses the values in the `gateway-config.xml` and `gateway-config-minimal.xml` files that are located in the `GATEWAY_HOME/conf/` directory when you start the Gateway. Although you do not need to update the configuration file to run the Gateway on your local host, you must make some changes to provide services on non localhost machines.
 

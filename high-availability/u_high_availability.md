@@ -1,10 +1,9 @@
+---
 Title: Using the Gateway to Support High Availability
 Product: Gateway
 Section: Clusters and Load Balancing
 DocType: Regular
-
-Using the Gateway to Support High Availability
-================================================================================================
+---
 
 You can configure KAAZING Gateway to be highly available, something that is mission critical to the success of today's enterprises. Configuring KAAZING Gateway for high availability protects applications from hardware and software failures.
 

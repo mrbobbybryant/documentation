@@ -1,10 +1,9 @@
+---
 Title: Set Up Your Development Environment
 Product: Gateway
 Section: Embedded
 DocType: Regular
-
-Set Up Your Development Environment
-===================================
+---
 
 The process of embedding the Gateway uses a standard Java model for packaging external code into your Java application, and then uses the built-in methods of the API to allow you to control the embedded Gateway programmatically.
 

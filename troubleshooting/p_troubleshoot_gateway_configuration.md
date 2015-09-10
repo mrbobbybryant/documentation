@@ -1,10 +1,9 @@
+---
 Title: Troubleshoot KAAZING Gateway Configuration and Startup
 Product: Gateway
 Section: Monitor and Troubleshoot
 DocType: Regular
-
-Troubleshoot KAAZING Gateway Configuration and Startup
-==================================================================================
+---
 
 When you set up and configure KAAZING Gateway, you may encounter one of the errors described in this topic. To resolve an issue, follow the guidance provided for the associated error.
 

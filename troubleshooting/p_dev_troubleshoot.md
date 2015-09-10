@@ -1,10 +1,9 @@
+---
 Title: Troubleshoot Your Clients
 Product: Gateway
 Section: Monitor and Troubleshoot
 DocType: Regular
-
-Troubleshoot Your Clients
-=========================
+---
 
 ### Troubleshoot All Clients
 

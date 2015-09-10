@@ -1,10 +1,9 @@
+---
 Title: About Security with KAAZING Gateway
 Product: Gateway
 Section: Security
 DocType: Regular
-
-About Security with KAAZING Gateway
-======================================================================================
+---
 
 Deploying applications over the Web presents security challenges that KAAZING Gateway takes very seriously. The Gateway adheres to the WebSocket specification of the HTML5 standard, and enhances the standard’s basic security aspects by building security features and functionality into the Gateway to keep users and information safe over the Web. These security features help to protect your data and let you authenticate that users are who they say they are, and that they take only authorized actions.
 

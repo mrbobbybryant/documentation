@@ -1,10 +1,9 @@
+---
 Title: Secure Clients and Web Browsers with a Self-Signed Certificate
 Product: Gateway
 Section: Security
 DocType: Regular
-
-Secure Clients and Web Browsers with a Self-Signed Certificate
-===============================================================================================
+---
 
 **Warning:** Using self-signed certificates can result in unpredictable behavior because various browsers, plug-ins, operating systems, and related run-time systems handle self-signed certificates differently. Resulting issues may include connectivity failures and other security issues which can be difficult to diagnose. Instead, use [trusted certificates](p_tls_trusted.md) issued from a trusted certificate authority (CA) for real-world development, test, and production environments.
 

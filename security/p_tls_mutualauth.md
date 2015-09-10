@@ -1,10 +1,9 @@
+---
 Title: Require Clients to Provide Certificates to the Gateway
 Product: Gateway
 Section: Security
 DocType: Regular
-
-Require Clients to Provide Certificates to the Gateway
-===============================================================================
+---
 
 Typically, TLS/SSL is used to validate the Gateway's identity to the client and encrypt data. However you can also use TLS/SSL to have the Gateway validate a client's identity. When TLS/SSL is used to verify both the Gateway and clients, it is sometimes referred to as mutual verification.
 

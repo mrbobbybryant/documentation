@@ -1,10 +1,9 @@
+---
 Title: Troubleshoot KAAZING Gateway Security
 Product: Gateway
 Section: Monitor and Troubleshoot
 DocType: Regular
-
-Troubleshoot KAAZING Gateway Security
-=================================================================
+---
 
 When you configure security for KAAZING Gateway, you may encounter one of the following errors. To resolve an issue, follow the guidance provided for the associated error.
 

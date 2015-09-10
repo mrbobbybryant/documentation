@@ -1,10 +1,9 @@
+---
 Title: Configure the Gateway to Use Multicast
 Product: Gateway
 Section: Configuration
 DocType: Regular
-
-Configure the Gateway to Use Multicast
-=======================================================================================
+---
 
 This procedure demonstrates how to configure a service that is running on KAAZING Gateway to use a multicast address (for example, a broadcast service).
 
