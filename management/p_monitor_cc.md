@@ -1,10 +1,9 @@
+---
 Title: Monitor with Command Center
 Product: Gateway
 Section: Management
 DocType: Regular
-
-Monitor with Command Center
-===================================================================================
+---
 
 You can monitor a Gateway or a Gateway cluster through Command Center, which is a browser-based application enabled in the default Gateway configuration. This procedure describes how to launch Command Center and begin monitoring a Gateway or a Gateway cluster.
 

@@ -1,10 +1,9 @@
+---
 Title: Configure a Challenge Handler on the Client
 Product: Gateway
 Section: Security
 DocType: Regular
-
-Configure a Challenge Handler on the Client
-=======================================================================================================
+---
 
 Client-level (application-level) security consists of challenge handlers and login handlers. A challenge handler on the client receives the authentication challenge from the Gateway, and is responsible for responding to the Gateway using the user credentials in the appropriate format. Conceptually, a challenge handler and a login module are paired, such that a challenge handler in the client is coded to accept and respond to challenges from the login module on the Gateway. For every login module, you must code the accompanying custom challenge handler in the client.
 

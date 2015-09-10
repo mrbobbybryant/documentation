@@ -1,10 +1,9 @@
+---
 Title: Integrate RabbitMQ Messaging
 Product: Gateway
 Section: Configuration
 DocType: Regular
-
-Integrate RabbitMQ Messaging
-============================
+---
 
 In this procedure, you will learn how to integrate KAAZING Gateway and [RabbitMQ](https://www.rabbitmq.com/), a highly reliable enterprise messaging system based on the AMQP standard.
 

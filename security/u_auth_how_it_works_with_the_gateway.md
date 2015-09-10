@@ -1,10 +1,9 @@
+---
 Title: How Authentication and Authorization Work with the Gateway
 Product: Gateway
 Section: Security
 DocType: Regular
-
-How Authentication and Authorization Work with the Gateway
-=================================================================================================================
+---
 
 You implement authentication on two levels: you configure KAAZING Gateway to require authentication and you code clients to authenticate themselves to use the requested service.
 

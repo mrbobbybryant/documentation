@@ -1,10 +1,9 @@
+---
 Title: About Internal Network Integration with KAAZING Gateway
 Product: Gateway
 Section: Configuration
 DocType: Regular
-
-About Internal Network Integration with KAAZING Gateway
-===========================================================================================================================
+---
 
 The `accept` element in a service is frequently sufficient for the service to receive messages and requests. However, sometimes the value of the `accept` element does not match the physical description of the host. In some situations, KAAZING Gateway might be behind a load balancer or in a cloud environment, in which case its local network information may not match the settings specified by the `accept` element. Configuring the Gateway in this scenario requires the [*protocol*.bind](../admin-reference/r_configure_gateway_service.md#protocolbind) element.
 

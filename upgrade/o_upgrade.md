@@ -1,10 +1,9 @@
+---
 Title: Upgrade the Gateway
 Product: Gateway
 Section: Essentials
 DocType: Regular
-
-Upgrade the Gateway
-============================================
+---
 
 The upgrade procedure migrates the existing KAAZING Gateway (including any associated applications) into KAAZING Gateway release 5.0. The following checklist provides the steps necessary to upgrade KAAZING Gateway to the next release.
 

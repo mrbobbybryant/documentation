@@ -1,10 +1,9 @@
+---
 Title: Transport Layer Security (TLS/SSL) Concepts
 Product: Gateway
 Section: Security
 DocType: Regular
-
-Transport Layer Security (TLS/SSL) Concepts
-============================================================================================
+---
 
 This section is a high-level introduction to the technologies used to configure secure networking with KAAZING Gateway. Secure networking with the Gateway uses two networking protocols: Transport Layer Security (TLS/SSL) and its predecessor Secure Sockets Layer (SSL). For the purposes of this guide, we use TLS/SSL when discussing secure protocols because SSL, while still popular, has not been updated since SSL version 3.0 in 1996 and TLS/SSL continues to be developed into new versions.
 

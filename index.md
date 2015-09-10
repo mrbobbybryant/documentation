@@ -1,10 +1,9 @@
-Title: Index
+---
+Title: Kaazing Documentation
 Product: Gateway
 Section:
 DocType: Index
-
-KAAZING Documentation for Enterprise Edition
-============================================
+---
 
 Essentials
 ----------

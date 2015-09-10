@@ -1,10 +1,9 @@
+---
 Title: Troubleshoot Your Embedded Gateway
 Product: Gateway
 Section: Embedded
 DocType: Regular
-
-Troubleshoot Your Embedded Gateway
-==================================
+---
 
 This procedure provides troubleshooting information for the most common issues that occur when using an embedded Gateway.
 

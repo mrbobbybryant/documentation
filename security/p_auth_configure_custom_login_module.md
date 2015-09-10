@@ -1,10 +1,9 @@
+---
 Title: Create a Custom Login Module
 Product: Gateway
 Section: Security
 DocType: Regular
-
-Create a Custom Login Module
-=========================================================================
+---
 
 Even though KAAZING Gateway provides several standard types of `login-module` implementations, you might choose to write a custom implementation. Because the JAAS interface implementation holds the authentication logic, most of the material you need to implement the `LoginModule` interface is provided in the following documentation:
 

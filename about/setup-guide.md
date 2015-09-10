@@ -1,10 +1,9 @@
+---
 Title: Setting Up the Gateway
 Product: Gateway
 Section: Essentials
 DocType: Regular
-
-Setting Up the Gateway
-=========================
+---
 
 This guide helps you download the Gateway distribution and set it up in your environment:
 

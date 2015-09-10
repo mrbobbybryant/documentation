@@ -1,10 +1,9 @@
+---
 Title: Configure the Gateway
 Product: Gateway
 Section: Configuration
 DocType: Regular
-
-Configure the Gateway
-============================================================================
+---
 
 The following checklist provides the steps necessary to configure KAAZING Gateway to perform authentication and authorization:
 

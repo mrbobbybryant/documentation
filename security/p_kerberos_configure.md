@@ -1,10 +1,10 @@
+---
 Title: Configuring Kerberos V5 Network Authentication Overview
 Product: Gateway
 Section: Security
 DocType: Regular
-
-Configuring Kerberos V5 Network Authentication Overview ![This feature is available in KAAZING Gateway - Enterprise Edition](../images/enterprise-feature.png)
-============================================================================================================================
+Enterprise: True
+---
 
 KAAZING Gateway can be configured to accept a Kerberos service ticket (Ticket-Protected Gateway or TPG) from a browser client using a standard `Negotiate` challenge. Additionally, if you want to combine a TPG with a Ticket Granting Gateway (TGG) to proxy Kerberos protocol traffic from clients to a KDC, then you can configure the TPG to use the `Application Negotiate` challenge, which sends the Kerberos authentication protocol traffic over WebSocket to a TGG.
 

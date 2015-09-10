@@ -1,10 +1,9 @@
+---
 Title: Secure Network Traffic with the Gateway
 Product: Gateway
 Section: Security
 DocType: Regular
-
-Secure Network Traffic with the Gateway
-==========================================
+---
 
 This checklist provides the steps necessary to secure network traffic with KAAZING Gateway using TLS/SSL:
 

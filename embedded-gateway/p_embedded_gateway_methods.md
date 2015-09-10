@@ -1,10 +1,9 @@
+---
 Title: Use the Embedded Gateway Methods
 Product: Gateway
 Section: Embedded
 DocType: Regular
-
-Use the Embedded Gateway Methods
-================================
+---
 
 This procedure describes how to use the methods available to the Gateway objects in your Java program.
 

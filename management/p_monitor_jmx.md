@@ -1,10 +1,9 @@
+---
 Title: Monitor with JMX
 Product: Gateway
 Section: Management
 DocType: Regular
-
-Monitor with JMX
-===============================================================
+---
 
 KAAZING Gateway supports Java Management Extension (JMX) access through any JMX-compliant console, such as Java's built-in Java Management and Monitoring Console ([JConsole](http://docs.oracle.com/javase/7/docs/technotes/guides/management/jconsole.html "Using JConsole - Java SE Monitoring and Management Guide")) or MC4J, or through any program that supports communication using the JMX protocol. The Gateway supports a `management.jmx` service to allow JMX-compliant applications to monitor current Gateway service and session state and operate on individual sessions. See the [Service Reference](../admin-reference/r_configure_gateway_service.md) for information about the JMX management service (`management.jmx`).
 

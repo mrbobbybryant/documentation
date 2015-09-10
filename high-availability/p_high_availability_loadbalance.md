@@ -1,10 +1,9 @@
+---
 Title: Set Up KAAZING Gateway as a Load Balancer
 Product: Gateway
 Section: Clusters and Load Balancing
 DocType: Regular
-
-Set Up KAAZING Gateway as a Load Balancer
-=============================================================================================
+---
 
 Load balancing is used to balance client connection loads for a group of Gateways that have been configured as a cluster using the `cluster` service. For more information, see [Configure a KAAZING Gateway Cluster](p_high_availability_cluster.md). You can configure load balancing using a third-party load balancer, but this procedure describes how to use the built-in load balancing features of the Gateway.
 

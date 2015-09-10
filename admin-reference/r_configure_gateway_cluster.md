@@ -1,10 +1,9 @@
+---
 Title: Cluster Reference
 Product: Gateway
 Section: Configuration
 DocType: Regular
-
-Cluster Reference
-========================================
+---
 
 This document describes the elements and properties you can configure in the KAAZING Gateway to achieve high availability.
 

@@ -1,10 +1,9 @@
+---
 Title: Configure a KAAZING Gateway Cluster
 Product: Gateway
 Section: Clusters and Load Balancing
 DocType: Regular
-
-Configure a KAAZING Gateway Cluster
-=======================================================================================
+---
 
 To create a cluster, you must configure multiple gateways to communicate with each other. This is accomplished by adding a `cluster` service to each Gateway. Once a `cluster` service is configured on each Gateway cluster member and the members are started, the clustered instances will handle connection-switching when another cluster member unexpectedly terminates. Cluster members share information about activity and which of their services are load balanced.
 

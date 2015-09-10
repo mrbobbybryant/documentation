@@ -1,10 +1,9 @@
+---
 Title: Security Reference
 Product: Gateway
 Section: Configuration
 DocType: Regular
-
-Security Reference
-=========================================
+---
 
 This document describes all of the elements and properties you can use to configure KAAZING Gateway security.
 

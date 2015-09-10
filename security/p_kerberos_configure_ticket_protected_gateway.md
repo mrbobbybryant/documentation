@@ -1,10 +1,10 @@
+---
 Title: Configure a Ticket Protected Gateway
 Product: Gateway
 Section: Security
 DocType: Regular
-
-Configure a Ticket Protected Gateway ![This feature is available in KAAZING Gateway - Enterprise Edition](../images/enterprise-feature.png)
-====================================================================================================
+Enterprise: True
+---
 
 In this procedure, you will learn how to configure KAAZING Gateway as a Ticket Protected Gateway to accept a Kerberos service ticket from a browser client.
 

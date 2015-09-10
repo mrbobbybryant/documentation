@@ -1,10 +1,9 @@
+---
 Title: Troubleshoot KAAZING Gateway Clusters and Load Balancing
 Product: Gateway
 Section: Monitor and Troubleshoot
 DocType: Regular
-
-Troubleshoot KAAZING Gateway Clusters and Load Balancing
-====================================================================================
+---
 
 When you configure KAAZING Gateway for high availability, you may encounter one of the following errors. To resolve an issue, follow the guidance provided for the associated error.
 

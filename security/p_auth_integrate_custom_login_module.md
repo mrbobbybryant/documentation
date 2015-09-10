@@ -1,10 +1,9 @@
+---
 Title: Integrate an Existing Custom Login Module into the Gateway
 Product: Gateway
 Section: Security
 DocType: Regular
-
-Integrate an Existing Custom Login Module into the Gateway
-=============================================================================================================
+---
 
 KAAZING Gateway supports a plug-in mechanism for integration with custom authentication modules based on the Java `LoginModule` API. This document provides an example of how you can use your existing custom login module with the Gateway.
 

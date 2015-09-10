@@ -1,10 +1,9 @@
+---
 Title: Embed KAAZING Gateway in Your Java Application
 Product: Gateway
 Section: Embedded
 DocType: Regular
-
-Embed KAAZING Gateway in Your Java Application
-==============================================
+---
 
 The following checklist provides the steps necessary to embed KAAZING Gateway into your Java application, and how to configure logging, monitoring, and management for the embedded Gateway:
 

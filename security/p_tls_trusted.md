@@ -1,10 +1,9 @@
+---
 Title: Secure the Gateway Using Trusted Certificates
 Product: Gateway
 Section: Security
 DocType: Regular
-
-Secure the Gateway Using Trusted Certificates
-=====================================================================================================
+---
 
 You can configure secure networking between KAAZING Gateway and its clients and back-end servers using **trusted certificates issued by a Certificate Authority**. A trusted certificate can be issued from a trusted public Certificate Authority or a Certificate Authority within your company and trusted by both your enterprise clients and servers. Using a trusted certificate also ensures that WebSocket connections are not dropped by intermediaries in the network such as proxy servers and firewalls.
 

@@ -1,10 +1,9 @@
+---
 Title: Configure Logging for an Embedded Gateway
 Product: Gateway
 Section: Embedded
 DocType: Regular
-
-Configure Logging for an Embedded Gateway
-=======================================================================
+---
 
 The default logging configuration for embedded Gateway uses the runtime logging tool log4j, and log4j logging is configured using the XML file log4j-config.xml in `GATEWAY_HOME/conf/`. You can make the following modifications to this configuration:
 

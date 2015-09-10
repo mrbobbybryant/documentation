@@ -1,10 +1,9 @@
+---
 Title: About HTTPS and WSS
 Product: Gateway
 Section: Security
 DocType: Regular
-
-About HTTPS and WSS
-======================================================================
+---
 
 KAAZING Gateway supports communication over HTTPS and WSS. The Gateway supports the following communication between the Gateway and the client: HTTP, HTTPS, WS, WSS. The HTTPS and WSS protocols are very similar, with both running on top of TLS/SSL over TCP connections.
 

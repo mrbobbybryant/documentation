@@ -1,10 +1,9 @@
+---
 Title: Secure the Gateway Using Self-Signed Certificates
 Product: Gateway
 Section: Security
 DocType: Regular
-
-Secure the Gateway Using Self-Signed Certificates
-============================================================================================================
+---
 
 **Warning:** Using self-signed certificates can result in unpredictable behavior because various browsers, plug-ins, operating systems, and related run-time systems handle self-signed certificates differently. Resulting issues may include connectivity failures and other security issues which can be difficult to diagnose. Instead, use [trusted certificates](p_tls_trusted.md) issued from a trusted certificate authority (CA) for real-world development, test, and production environments.
 

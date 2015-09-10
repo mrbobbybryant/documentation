@@ -1,10 +1,9 @@
+---
 Title: Monitor the Gateway
 Product: Gateway
 Section: Management
 DocType: Regular
-
-Monitor the Gateway
-============================================
+---
 
 This checklist provides the steps necessary to monitor KAAZING Gateway:
 
