@@ -1,7 +1,7 @@
 ---
 Title: Configure Logging for an Embedded Gateway
 Product: Gateway
-Section: Embedded
+Section: embedded-gateway
 DocType: Regular
 ---
 

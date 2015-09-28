@@ -1,7 +1,7 @@
 ---
 Title: Configuring Multiple Services on the Same Host and Port
 Product: Gateway
-Section: Configuration
+Section: admin-reference
 DocType: Regular
 ---
 

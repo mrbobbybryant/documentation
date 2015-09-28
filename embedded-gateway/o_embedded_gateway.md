@@ -1,7 +1,7 @@
 ---
 Title: Embed KAAZING Gateway in Your Java Application
 Product: Gateway
-Section: Embedded
+Section: embedded-gateway
 DocType: Regular
 ---
 

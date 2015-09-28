@@ -1,7 +1,7 @@
 ---
 Title: General Client Information
 Product: Gateway
-Section: Cross-Platform Topics
+Section: dev-general
 DocType: Regular
 ---
 

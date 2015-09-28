@@ -1,7 +1,7 @@
 ---
 Title: Setting Up the Gateway
 Product: Gateway
-Section: Essentials
+Section: about
 DocType: Regular
 ---
 

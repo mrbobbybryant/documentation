@@ -1,7 +1,7 @@
 ---
 Title: Upgrade the Gateway
 Product: Gateway
-Section: Essentials
+Section: upgrade
 DocType: Regular
 ---
 

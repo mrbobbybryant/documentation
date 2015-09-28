@@ -1,7 +1,7 @@
 ---
 Title: Configure the Gateway to Use Multicast
 Product: Gateway
-Section: Configuration
+Section: admin-reference
 DocType: Regular
 ---
 

@@ -1,7 +1,7 @@
 ---
 Title: About Internal Network Integration with KAAZING Gateway
 Product: Gateway
-Section: Configuration
+Section: internal-network
 DocType: Regular
 ---
 

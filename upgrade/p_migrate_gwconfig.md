@@ -1,7 +1,7 @@
 ---
 Title: Migrate the Gateway Configuration
 Product: Gateway
-Section: Essentials
+Section: upgrade
 DocType: Regular
 ---
 

@@ -1,7 +1,7 @@
 ---
 Title: Troubleshoot KAAZING Gateway Security
 Product: Gateway
-Section: Monitor and Troubleshoot
+Section: troubleshooting
 DocType: Regular
 ---
 

@@ -1,7 +1,7 @@
 ---
 Title: Configure a KAAZING Gateway Cluster
 Product: Gateway
-Section: Clusters and Load Balancing
+Section: high-availability
 DocType: Regular
 ---
 

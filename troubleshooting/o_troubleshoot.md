@@ -1,7 +1,7 @@
 ---
 Title: Troubleshoot the Gateway
 Product: Gateway
-Section: Monitor and Troubleshoot
+Section: troubleshooting
 DocType: Regular
 ---
 

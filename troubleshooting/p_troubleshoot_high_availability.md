@@ -1,7 +1,7 @@
 ---
 Title: Troubleshoot KAAZING Gateway Clusters and Load Balancing
 Product: Gateway
-Section: Monitor and Troubleshoot
+Section: troubleshooting
 DocType: Regular
 ---
 

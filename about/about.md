@@ -1,7 +1,7 @@
 ---
 Title: Documentation Conventions
 Product: Gateway
-Section: Essentials
+Section: about
 DocType: Regular
 ---
 

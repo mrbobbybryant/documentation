@@ -1,7 +1,7 @@
 ---
 Title: About Gateway Configuration
 Product: Gateway
-Section: Configuration
+Section: admin-reference
 DocType: Regular
 ---
 
