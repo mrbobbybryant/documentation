@@ -1,7 +1,7 @@
 ---
 Title: Using the Gateway to Support High Availability
 Product: Gateway
-Section: Clusters and Load Balancing
+Section: high-availability
 DocType: Regular
 ---
 

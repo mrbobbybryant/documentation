@@ -1,7 +1,7 @@
 ---
 Title: Set Up Your Development Environment
 Product: Gateway
-Section: Embedded
+Section: embedded-gateway
 DocType: Regular
 ---
 

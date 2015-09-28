@@ -1,7 +1,7 @@
 ---
 Title: Security Reference
 Product: Gateway
-Section: Configuration
+Section: admin-reference
 DocType: Regular
 ---
 

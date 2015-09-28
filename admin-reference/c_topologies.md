@@ -1,7 +1,7 @@
 ---
 Title: Common KAAZING Gateway Production Topologies
 Product: Gateway
-Section: Configuration
+Section: admin-reference
 DocType: Regular
 ---
 

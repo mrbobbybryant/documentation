@@ -1,7 +1,7 @@
 ---
 Title: Kaazing Glossary
 Product: Gateway
-Section: Essentials
+Section: 
 DocType: Index
 ---
 

@@ -1,7 +1,7 @@
 ---
 Title: Integrate RabbitMQ Messaging
 Product: Gateway
-Section: Configuration
+Section: integration-amqp
 DocType: Regular
 ---
 

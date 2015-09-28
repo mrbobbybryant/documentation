@@ -1,7 +1,7 @@
 ---
 Title: Configure KAAZING Gateway
 Product: Gateway
-Section: Configuration
+Section: admin-reference
 DocType: Regular
 ---
 

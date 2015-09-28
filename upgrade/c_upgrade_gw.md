@@ -1,7 +1,7 @@
 ---
 Title: About KAAZING Gateway Releases and Upgrades
 Product: Gateway
-Section: Essentials
+Section: upgrade
 DocType: Regular
 ---
 

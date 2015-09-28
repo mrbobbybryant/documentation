@@ -1,7 +1,7 @@
 ---
 Title: Configuration Element Index
 Product: Gateway
-Section: Configuration
+Section: admin-reference
 DocType: Regular
 ---
 

@@ -1,7 +1,7 @@
 ---
 Title: Configure KAAZING Gateway Using the GATEWAY\_OPTS Environment Variable
 Product: Gateway
-Section: Configuration
+Section: admin-reference
 DocType: Regular
 ---
 

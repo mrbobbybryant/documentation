@@ -1,7 +1,7 @@
 ---
 Title: Set Up KAAZING Gateway as a Load Balancer
 Product: Gateway
-Section: Clusters and Load Balancing
+Section: high-availability
 DocType: Regular
 ---
 

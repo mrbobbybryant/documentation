@@ -1,7 +1,7 @@
 ---
 Title: Troubleshoot Your Clients
 Product: Gateway
-Section: Monitor and Troubleshoot
+Section: troubleshooting
 DocType: Regular
 ---
 

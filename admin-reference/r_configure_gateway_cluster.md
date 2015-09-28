@@ -1,7 +1,7 @@
 ---
 Title: Cluster Reference
 Product: Gateway
-Section: Configuration
+Section: admin-reference
 DocType: Regular
 ---
 

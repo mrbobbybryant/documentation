@@ -1,7 +1,7 @@
 ---
 Title: Use the Embedded Gateway Methods
 Product: Gateway
-Section: Embedded
+Section: embedded-gateway
 DocType: Regular
 ---
 

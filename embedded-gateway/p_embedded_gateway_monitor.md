@@ -1,7 +1,7 @@
 ---
 Title: Monitor and Manage an Embedded Gateway
 Product: Gateway
-Section: Embedded
+Section: embedded-gateway
 DocType: Regular
 ---
 

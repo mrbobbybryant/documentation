@@ -1,7 +1,7 @@
 ---
 Title: Configure the Gateway on an Internal Network
 Product: Gateway
-Section: Configuration
+Section: internal-network
 DocType: Regular
 ---
 
