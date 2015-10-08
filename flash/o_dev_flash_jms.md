@@ -1,5 +1,5 @@
 ---
-Title: Checklist: How to Build Flash JMS Clients Using KAAZING Gateway
+Title: Build Flash JMS Clients Using KAAZING Gateway
 Product: Gateway
 Section: flash
 DocType: Regular

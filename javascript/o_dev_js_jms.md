@@ -1,5 +1,5 @@
 ---
-Title: Checklist: Build JavaScript JMS Clients Using KAAZING Gateway
+Title: Build JavaScript JMS Clients Using KAAZING Gateway
 Product: Gateway
 Section: javascript
 DocType: Regular

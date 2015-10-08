@@ -1,5 +1,5 @@
 ---
-Title: Checklist: How to Build Microsoft .NET and Silverlight JMS Clients Using KAAZING Gateway
+Title: Build Microsoft .NET and Silverlight JMS Clients Using KAAZING Gateway
 Product: Gateway
 Section: windows
 DocType: Regular
