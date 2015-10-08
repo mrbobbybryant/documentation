@@ -1,5 +1,9 @@
-Build Java WebSocket Clients
-============================
+---
+Title: Build Java WebSocket Clients
+Product: Gateway
+Section: java
+DocType: Regular
+---
 
 Note: To use the Gateway, a KAAZING client library, or a KAAZING demo, fork the repository from [kaazing.org](http://kaazing.org).
 

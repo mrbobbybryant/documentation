@@ -1,5 +1,10 @@
-Build Microsoft Windows Phone WebSocket Clients  ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
-=====================================================================
+---
+Title: Build Microsoft Windows Phone WebSocket Clients
+Product: Gateway
+Section: windows
+DocType: Regular
+Enterprise: True
+---
 
 This topic provides the information needed to create a Microsoft Windows Phone 8.1 app using the KAAZING Gateway .NET and Silverlight WebSocket API.
 
@@ -8,11 +13,11 @@ For information on using the KAAZING Gateway .NET and Silverlight WebSocket API 
 **Note:** The KAAZING Gateway .NET and Silverlight WebSocket API supports Windows Phone 8.1 and higher, Windows Mobile 10, and Windows Surface RT. It does not support Windows CE.
 
 
-| #   | Step                                                                       | Section or Reference                                           |
-| --- | -------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| 1   | Learn how to use the WebSocket API provided by the KAAZING .NET and Silverlight WebSocket client library. | [Use the Microsoft Windows Phone WebSocket Client API](#use-the-microsoft-windows-phone-websocket-client-api) |
-| 2   | Learn how to authenticate your client with the Gateway.                    | [Secure Your Microsoft Windows Phone Client](#secure-your-microsoft-windows-phone-client)                     |
-| 3   | Set up logging for your client.                                            | [Display Logs for the Microsoft Windows Phone JMS Client](#display-logs-for-the-microsoft-windows-phone-client)        |
+| # | Step                                                                                                      | Section or Reference                                                                                            |
+|:--|:----------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------|
+| 1 | Learn how to use the WebSocket API provided by the KAAZING .NET and Silverlight WebSocket client library. | [Use the Microsoft Windows Phone WebSocket Client API](#use-the-microsoft-windows-phone-websocket-client-api)   |
+| 2 | Learn how to authenticate your client with the Gateway.                                                   | [Secure Your Microsoft Windows Phone Client](#secure-your-microsoft-windows-phone-client)                       |
+| 3 | Set up logging for your client.                                                                           | [Display Logs for the Microsoft Windows Phone JMS Client](#display-logs-for-the-microsoft-windows-phone-client) |
 
 
 ### Introduction
@@ -42,15 +47,15 @@ In this procedure, you will learn how to create a Windows Phone app using the KA
 
 Before you get started, review the components and tools used to build the Microsoft Windows Phone WebSocket client in this procedure.
 
-| Component or Tool                                   | Description                                                                                                                                                                                                                             | Location                                                                                                                                                                                                                                                              |
-| --------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| KAAZING Gateway. | KAAZING Gateway provides a highly scalable, near zero-latency, full-duplex solution for Custom Protocol applications.                                                                                                               | The KAAZING Gateway is available at [kaazing.com](http://kaazing.com/products/editions/kaazing-websocket-gateway-custom-protocol/). A public KAAZING Gateway is hosted at [websocket.org](http://www.websocket.org).
-| Target Framework or Environment                     | Microsoft Windows Phone devices                                                                                                                                                                                                         | Windows Phone website                                                                                                                                                                                                                                                 |
-| Library for target deployment environment           | The DLL needed to build a Microsoft Windows Phone WebSocket app. In the Microsoft Windows Phone WebSocket client library, there is a Visual Studio project that builds the DLL. | The Visual Studio project file is **Kaazing.WebSocket.WindowsPhoneSilverlight.csproj**. The Microsoft Windows Phone WebSocket client library is available in the KAAZING Gateway distribution (TODO).                                                                                              |
-| Development Tool                                    | Visual Studio                                                                                                                                                                                                                           | [www.visualstudio.com](http://www.visualstudio.com)                                                                                                                                                                                                                                          |
-| Package Installer (optional)                        | You can use the NuGet Package Manager to install the Microsoft Windows Phone WebSocket client library as a Nuget Package.                                                                                                               | Starting with Visual Studio 2012, NuGet is included in every edition (except Team Foundation Server) by default. Updates to NuGet can be found through the Extension Manager. For Visual Studio 2010, NuGet is available through the Visual Studio Extension Manager. |
-| NuGet Command-Line (optional)                       | NuGet Command-Line Utility                                                                                                                                                                                                              | [https://docs.nuget.org/consume/installing-nuget](https://docs.nuget.org/consume/installing-nuget)                                                                                                                                                                                                                       |
-| Secure Networking of TLS/SSL                        | A Microsoft Windows Phone WebSocket client runs on Microsoft Windows Phone devices. Windows Phone devices manage TLS/SSL connections, requesting TLS/SSL certificates from KAAZING Gateway.           | See the article, [Installing digital certificates](https://msdn.microsoft.com/en-us/library/dn643705.aspx), from Microsoft.                                                                                                                                                                                                     |
+| Component or Tool                         | Description                                                                                                                                                                                 | Location                                                                                                                                                                                                                                                              |
+|:------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| KAAZING Gateway.                          | KAAZING Gateway provides a highly scalable, near zero-latency, full-duplex solution for Custom Protocol applications.                                                                       | The KAAZING Gateway is available at [kaazing.com](http://kaazing.com/products/editions/kaazing-websocket-gateway-custom-protocol/). A public KAAZING Gateway is hosted at [websocket.org](http://www.websocket.org).                                                  |
+| Target Framework or Environment           | Microsoft Windows Phone devices                                                                                                                                                             | Windows Phone website                                                                                                                                                                                                                                                 |
+| Library for target deployment environment | The DLL needed to build a Microsoft Windows Phone WebSocket app. In the Microsoft Windows Phone WebSocket client library, there is a Visual Studio project that builds the DLL.             | The Visual Studio project file is **Kaazing.WebSocket.WindowsPhoneSilverlight.csproj**. The Microsoft Windows Phone WebSocket client library is available in the KAAZING Gateway distribution (TODO).                                                                 |
+| Development Tool                          | Visual Studio                                                                                                                                                                               | [www.visualstudio.com](http://www.visualstudio.com)                                                                                                                                                                                                                   |
+| Package Installer (optional)              | You can use the NuGet Package Manager to install the Microsoft Windows Phone WebSocket client library as a Nuget Package.                                                                   | Starting with Visual Studio 2012, NuGet is included in every edition (except Team Foundation Server) by default. Updates to NuGet can be found through the Extension Manager. For Visual Studio 2010, NuGet is available through the Visual Studio Extension Manager. |
+| NuGet Command-Line (optional)             | NuGet Command-Line Utility                                                                                                                                                                  | [https://docs.nuget.org/consume/installing-nuget](https://docs.nuget.org/consume/installing-nuget)                                                                                                                                                                    |
+| Secure Networking of TLS/SSL              | A Microsoft Windows Phone WebSocket client runs on Microsoft Windows Phone devices. Windows Phone devices manage TLS/SSL connections, requesting TLS/SSL certificates from KAAZING Gateway. | See the article, [Installing digital certificates](https://msdn.microsoft.com/en-us/library/dn643705.aspx), from Microsoft.                                                                                                                                           |
 
 ### Taking a Look at the Microsoft Windows Phone Client Demo
 
@@ -83,7 +88,7 @@ The completed demo looks file the following:
 
     1. In a browser, navigate to the folder containing the KAAZING Gateway Microsoft Windows Phone API. For information on the location, see [Components and Tools](#components-and-tools).
 
-2. Open and build the Visual Studio project for the Windows Phone deployment environment, for example, the Windows Phone Silverlight project: **Kaazing.WebSocket.WindowsPhoneSilverlight.csproj**. 
+2. Open and build the Visual Studio project for the Windows Phone deployment environment, for example, the Windows Phone Silverlight project: **Kaazing.WebSocket.WindowsPhoneSilverlight.csproj**.
 
     2. Open **Kaazing.WebSocket.WindowsPhoneSilverlight.csproj** in Visual Studio. It is located in the KAAZING Gateway distribution (TODO).
 
@@ -111,7 +116,7 @@ The completed demo looks file the following:
 
     12. In your Visual Studio Windows Phone project, click **MainPage.xaml**.
 
-    13. Replace the contents of **MainPage.xaml** with the code in [MainPage.xaml](https://github.com/kaazing/enterprise.dotnet.client/blob/develop/ws/demo/WindowsPhoneSilverlight/EchoDemo/MainPage.xaml) in the [Windows Phone Silverlight Demo repo](https://github.com/kaazing/enterprise.dotnet.client/tree/develop/ws/demo/WindowsPhoneSilverlight). 
+    13. Replace the contents of **MainPage.xaml** with the code in [MainPage.xaml](https://github.com/kaazing/enterprise.dotnet.client/blob/develop/ws/demo/WindowsPhoneSilverlight/EchoDemo/MainPage.xaml) in the [Windows Phone Silverlight Demo repo](https://github.com/kaazing/enterprise.dotnet.client/tree/develop/ws/demo/WindowsPhoneSilverlight).
 
     14. Expand **MainPage.xaml** to reveal **MainPage.xaml.cs**.
 
@@ -133,7 +138,7 @@ The completed demo looks file the following:
 
     23. In Solution Explorer, expand **LoginControl.xaml** and then click **LoginControl.xaml.cs**.
 
-    24. Replace the contents of **LoginControl.xaml.cs** with the code in [LoginControl.xaml.cs](https://github.com/kaazing/enterprise.dotnet.client/blob/develop/ws/demo/WindowsPhoneSilverlight/EchoDemo/LoginControl.xaml.cs) in [Windows Phone Silverlight Demo repo](https://github.com/kaazing/enterprise.dotnet.client/tree/develop/ws/demo/WindowsPhoneSilverlight). 
+    24. Replace the contents of **LoginControl.xaml.cs** with the code in [LoginControl.xaml.cs](https://github.com/kaazing/enterprise.dotnet.client/blob/develop/ws/demo/WindowsPhoneSilverlight/EchoDemo/LoginControl.xaml.cs) in [Windows Phone Silverlight Demo repo](https://github.com/kaazing/enterprise.dotnet.client/tree/develop/ws/demo/WindowsPhoneSilverlight).
 
     25. To add the authentication code to your app, right-click the project title, **EchoDemo**, click **Add**, and then click **New Item**.
 
@@ -160,7 +165,7 @@ The completed demo looks file the following:
     TEXT MESSAGE: Hello WebSocket!
     ```
 10. Click the **Binary** checkbox and click **Send** again. The message is sent and the binary Echo message is returned:
-    
+
     ``` bash
     SEND: Hello WebSocket!
     BINARY MESSAGE: 48-65-6C-6F-20-57-65-62-53-6F-63-6B-65-74-21
@@ -209,11 +214,11 @@ The following demo files are used for the KAAZING Gaterway Microsoft Windows Pho
 
 ## Secure Your Microsoft Windows Phone Client
 
-This topic provides information on how to add user authentication functionality to KAAZING Gateway Windows Phone clients. The KAAZING Gateway Windows Phone Clients use the KAAZING Gateway Microsoft .NET and Silverlight API authentication classes and methods. For information on these authentication classes and methods, see [Secure Your Microsoft .NET and Silverlight Client](https://github.com/kaazing/enterprise.dotnet.client/blob/develop/ws/ws/doc/p_dev_dotnet_secure.md). 
+This topic provides information on how to add user authentication functionality to KAAZING Gateway Windows Phone clients. The KAAZING Gateway Windows Phone Clients use the KAAZING Gateway Microsoft .NET and Silverlight API authentication classes and methods. For information on these authentication classes and methods, see [Secure Your Microsoft .NET and Silverlight Client](https://github.com/kaazing/enterprise.dotnet.client/blob/develop/ws/ws/doc/p_dev_dotnet_secure.md).
 
 ### Creating a Basic Challenge Handler
 
-Authenticating your client involves implementing a challenge handler to respond to authentication challenges from the KAAZING Gateway. If your challenge handler is responsible for obtaining user credentials, then you will also need to implement a login handler. 
+Authenticating your client involves implementing a challenge handler to respond to authentication challenges from the KAAZING Gateway. If your challenge handler is responsible for obtaining user credentials, then you will also need to implement a login handler.
 
 Here is an example of a challenge handler and login handler for a Windows Phone app. The challenge handler manages the authentication challenge from the KAAZING Gateway, and the login handler is used to obtain the user credentials and return them to the challenge handler as part of a callback.
 
@@ -289,7 +294,6 @@ Learn more about the authentication options available to your Windows Phone clie
 
 ## Display Logs for the Microsoft Windows Phone Client
 
-The KAAZING Gateway Windows Phone Clients use the KAAZING Gateway Microsoft .NET and Silverlight API logging and debugging features. For information on these authentication classes and methods, see [Display Logs for Microsoft .NET and Silverlight Clients](https://github.com/kaazing/enterprise.dotnet.client/blob/develop/ws/ws/doc/p_clientlogging_dotnet.md). 
+The KAAZING Gateway Windows Phone Clients use the KAAZING Gateway Microsoft .NET and Silverlight API logging and debugging features. For information on these authentication classes and methods, see [Display Logs for Microsoft .NET and Silverlight Clients](https://github.com/kaazing/enterprise.dotnet.client/blob/develop/ws/ws/doc/p_clientlogging_dotnet.md).
 
 Visual Studio includes debugging features for Windows Phone 8. For more information, see [Phone Debugging in Visual Studio 2013 Update 2](http://blogs.msdn.com/b/visualstudioalm/archive/2014/04/04/phone-debugging-in-visual-studio-2013-update-2.aspx) from Microsoft.
-

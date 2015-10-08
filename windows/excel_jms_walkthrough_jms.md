@@ -1,5 +1,10 @@
-Walkthrough: Integrate Excel with KAAZING Gateway  ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
-======================================================
+---
+Title: Walkthrough: Integrate Excel with KAAZING Gateway
+Product: Gateway
+Section: windows
+DocType: Regular
+Enterprise: True
+---
 
 In this walkthrough, you will learn how to build a Microsoft Excel™ spreadsheet and Windows real-time data (RTD) server to communicate with a JMS-compliant message broker (Apache ActiveMQ) via the KAAZING Gateway. This topic has the following sections:
 
@@ -137,7 +142,7 @@ Property: company=Apple
 The message is very simple, and uses a number of properties to pass values:
 
 | Message Element | Description                                                                                                                                                                                                                       | Example Value   |
-|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|
+|:----------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------|
 | Destination     | The prefix of the topics or queues to subscribe to. This will be appended by the symbol.                                                                                                                                          | `/topic/ticker` |
 | price           | The property name on the messages that hold the price.                                                                                                                                                                            | `5.7656646`     |
 | symbol          | The property name used to discriminate messages. For example, in this case, messages have a property called `"symbol"` with a value that is a stock symbol. This is how the messages are matched to the cells in the spreadsheet. | `AAPL`          |
@@ -153,7 +158,7 @@ RTD(ProgID, server, topic1, [topic2], ...)
 The following table describes the formula arguments.
 
 | RTD Formula Argument | Argument Description                                                                                                                                                                                                                                                                          |
-|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:---------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ProgID               | Required. The name of the ProgID of a registered COM automation add-in that has been installed on the local computer. The name must be enclosed in quotation marks. For the out of the box demo, the name used in the spreadsheet was specified when the DLL was registered by the installer. |
 | server               | Required, but may be blank. The name of the server where the add-in should be run. If there is no server, and the program is run locally, as with the Excel RTD Server JMS Demo, the argument is left blank. Otherwise, enter quotation marks ("") around the server name.                    |
 | topic1               | topic1 is required.                                                                                                                                                                                                                                                                           |
@@ -181,14 +186,14 @@ RTD("KaazingStockTickerExcelDemo.RtdServer",,”ws://localhost:8001/jms”, “/
 
 The following table describes the values in this example:
 
-| Example Value                           | Description                                                                                                                                                                                    |
-|-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| “KaazingStockTickerExcelDemo.RtdServer” | This ProgID name is configured in the Visual Studio project when creating the RTD server.                                                                                                      |
-| blank                                   | In our example, the RTD server is co-located with the Excel spreadsheet, and therefore no value is supplied to this argument.                                                                  |
+| Example Value                           | Description                                                                                                                                                                                 |
+|:----------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| “KaazingStockTickerExcelDemo.RtdServer” | This ProgID name is configured in the Visual Studio project when creating the RTD server.                                                                                                   |
+| blank                                   | In our example, the RTD server is co-located with the Excel spreadsheet, and therefore no value is supplied to this argument.                                                               |
 | “ws://localhost:8001/jms”               | The WebSocket URI of the JMS service running on the Gateway, `ws://localhost:8001/jms`. The required topic1 argument is an ideal location for this value because the URI is also mandatory. |
-| “/topic/ticker.AAPL”                    | The destination prefix of the JMS message subscription.                                                                                                                                        |
-| “symbol=AAPL”                           | The discriminator. This value is used to match JMS messages to the cells in the spreadsheet.                                                                                                   |
-| “price”                                 | The property name on the messages that hold the price of the stock. If you review the JMS message above, other options are `change` and `company`.                                             |
+| “/topic/ticker.AAPL”                    | The destination prefix of the JMS message subscription.                                                                                                                                     |
+| “symbol=AAPL”                           | The discriminator. This value is used to match JMS messages to the cells in the spreadsheet.                                                                                                |
+| “price”                                 | The property name on the messages that hold the price of the stock. If you review the JMS message above, other options are `change` and `company`.                                          |
 
 VBA Wrapper Functions
 ---------------------

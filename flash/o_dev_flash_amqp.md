@@ -1,5 +1,10 @@
-Build Flash AMQP Clients  ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
-===========================================
+---
+Title: Build Flash AMQP Clients
+Product: Gateway
+Section: flash
+DocType: Regular
+Enterprise: True
+---
 
 This checklist provides the steps necessary to build Flash AMQP clients to communicate with KAAZING Gateway:
 

@@ -1,5 +1,10 @@
-Walkthrough: Deploy a JavaScript JMS App as a Hybrid iOS App  ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
-============================================================
+---
+Title: Walkthrough: Deploy a JavaScript JMS App as a Hybrid iOS App
+Product: Gateway
+Section: javascript
+DocType: Regular
+Enterprise: True
+---
 
 In this walkthrough, you will learn how to deploy an existing JavaScript JMS web app as a hybrid iOS app for iOS. This topic walks you through the following subjects:
 

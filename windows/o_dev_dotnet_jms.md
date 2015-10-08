@@ -1,5 +1,10 @@
-Checklist: How to Build Microsoft .NET and Silverlight JMS Clients Using KAAZING Gateway  ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
-===============================================================================================================
+---
+Title: Checklist: How to Build Microsoft .NET and Silverlight JMS Clients Using KAAZING Gateway
+Product: Gateway
+Section: windows
+DocType: Regular
+Enterprise: True
+---
 
 This checklist provides the steps necessary to use the signed KAAZING Gateway JMS client libraries for Microsoft .NET and Silverlight to enable your .NET Framework or Silverlight application to communicate with any JMS-compliant message broker, such as Apache ActiveMQ.
 

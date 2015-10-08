@@ -1,5 +1,10 @@
-Walkthrough: Deploy a JavaScript JMS App as a Hybrid Android App  ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
-================================================================
+---
+Title: Walkthrough: Deploy a JavaScript JMS App as a Hybrid Android App
+Product: Gateway
+Section: javascript
+DocType: Regular
+Enterprise: True
+---
 
 In this walkthrough, you will learn how to deploy an existing JavaScript JMS web app built with the KAAZING Gateway JavaScript JMS libraries as a hybrid app for Android. This topic walks you through the following subjects:
 
@@ -13,7 +18,7 @@ In this walkthrough, you will learn how to deploy an existing JavaScript JMS web
 8.  [Build and Test the Hybrid Android App](#build-and-test-the-hybrid-android-app)
 9.  [Summary](#summary)
 
-**Notes:** 
+**Notes:**
 -   A hybrid Android app is a hybrid of a browser-based application and a native Android app. A native Android app is built using the Android SDK. A hybrid Android app is built using HTML, CSS, and JavaScript like a typical browser-based application, and then packaged in a framework that allows it to be converted into an app that runs on Android devices much like a native app. Hybrid Android apps enable web developers to leverage their web experience to create apps for Android. For information on native Android development, see [Android Develop](http://developer.android.com/develop/index.html).
 -   A hybrid Android app is also different from a browser-based application that is intended for viewing in a browser on Android, but not downloaded through the Android app store. If you have an existing KAAZING Gateway JavaScript JMS browser-based application, you can use it to create a hybrid Android app or you can modify its web content to make it compatible with browsers on Android.
 
@@ -189,11 +194,11 @@ The following steps will create the project directory for the hybrid Android app
         <uses-sdk
             android:minSdkVersion="8"
             android:targetSdkVersion="15" />
-        <supports-screens 
-        android:largeScreens="true" 
-        android:normalScreens="true" 
-        android:smallScreens="true" 
-        android:resizeable="true" 
+        <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:resizeable="true"
         android:anyDensity="true" />
         <uses-permission android:name="android.permission.VIBRATE" />
         <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -207,7 +212,7 @@ The following steps will create the project directory for the hybrid Android app
         <uses-permission android:name="android.permission.READ_CONTACTS" />
         <uses-permission android:name="android.permission.WRITE_CONTACTS" />
         <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> 
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
         <uses-permission android:name="android.permission.GET_ACCOUNTS" />
         <uses-permission android:name="android.permission.BROADCAST_STICKY" />    
         <application
@@ -304,7 +309,7 @@ Build and Test the Hybrid Android App
 
 The following steps build the hybrid Android app that you created in Eclipse.
 
-**Notes:** 
+**Notes:**
 -   Both KAAZING Gateway and Apache ActiveMQ must be running before testing the hybrid Android app.
 -   In order to connect the hybrid Android app on the Android device to KAAZING Gateway and Apache ActiveMQ, the Android device must be able to resolve the host name of computer running KAAZING Gateway on the network. This is the host name that you will use in the Location field of the hybrid Android app. For example, `ws://host_name:8001/jms`. You can also configure KAAZING Gateway to use the IP Address of the computer running KAAZING Gateway (for example, `ws://192.168.4.86:8001/jms`). Using the IP Address is often the easiest method during testing.
 
@@ -327,6 +332,3 @@ Summary
 -------
 
 In this walkthrough, you learned how to turn one of the out of the box KAAZING Gateway JavaScript JMS demos into a hybrid Android app. To learn how to build your own KAAZING Gateway JMS apps, refer to the [documentation](../index.md).
-
-
-

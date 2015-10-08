@@ -1,5 +1,10 @@
-Build Flash WebSocket Clients  ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
-================================================
+---
+Title: Build Flash WebSocket Clients
+Product: Gateway
+Section: flash
+DocType: Regular
+Enterprise: True
+---
 
 The following checklist provides the steps necessary to build clients to communicate with KAAZING Gateway:
 

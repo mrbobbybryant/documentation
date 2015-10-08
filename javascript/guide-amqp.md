@@ -1,5 +1,9 @@
-Real-Time Interactive Guide to AMQP
-===================================
+---
+Title: Real-Time Interactive Guide to AMQP
+Product: Gateway
+Section: javascript
+DocType: Regular
+---
 
 **Technology used**: AMQP 0-9-1 and KAAZING Gateway. While this guide assumes that you have an AMQP 0-9-1 broker and the Gateway running locally, you can also use a RFC-6455 WebSocket endpoint that supports AMQP 0-9-1 instead of the Gateway.
 
@@ -14,5 +18,3 @@ An interactive guide is included in the KAAZING Gateway JavaScript AMQP demo ava
 7.  In a browser, navigate to the file **guide-amqp.md**.
 
 If you'd like to see the code that was used to build this real-time Web page, check the source of the demo page.
-
-

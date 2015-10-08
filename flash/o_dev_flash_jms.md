@@ -1,5 +1,10 @@
-Checklist: How to Build Flash JMS Clients Using KAAZING Gateway  ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
-======================================================================================
+---
+Title: Checklist: How to Build Flash JMS Clients Using KAAZING Gateway
+Product: Gateway
+Section: flash
+DocType: Regular
+Enterprise: True
+---
 
 This checklist provides the steps necessary to use the Flash JMS client libraries available in KAAZING Gateway - Enterprise Edition to enable your Flash application to communicate with any JMS-compliant message broker, such as JMS-compliant message broker, directly from Flash. This checklist contains information for a Flash JMS developer who needs to integrate a JMS-compliant message broker with a Flash application.
 

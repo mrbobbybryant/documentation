@@ -1,5 +1,10 @@
-Build Microsoft .NET and Silverlight WebSocket Clients  ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
-======================================================
+---
+Title: Build Microsoft .NET and Silverlight WebSocket Clients
+Product: Gateway
+Section: windows
+DocType: Regular
+Enterprise: True
+---
 
 This checklist provides the steps to enable your .NET Framework or Silverlight application to communicate with KAAZING Gateway using the signed client libraries:
 

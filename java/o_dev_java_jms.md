@@ -1,5 +1,10 @@
-Checklist: How to Build Java JMS Clients Using KAAZING Gateway  ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
-=====================================================================================
+---
+Title: Checklist: How to Build Java JMS Clients Using KAAZING Gateway
+Product: Gateway
+Section: java
+DocType: Regular
+Enterprise: True
+---
 
 This checklist provides the steps necessary to enable your Java application to communicate with any JMS-compliant message broker, such as Apache ActiveMQ, using the Java client libraries available in KAAZING Gateway - Enterprise Edition:
 

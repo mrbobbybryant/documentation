@@ -1,5 +1,10 @@
-Checklist: Build Objective-C (iOS) JMS Clients Using KAAZING Gateway  ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
-===========================================================================================
+---
+Title: Checklist: Build Objective-C (iOS) JMS Clients Using KAAZING Gateway
+Product: Gateway
+Section: ios
+DocType: Regular
+Enterprise: True
+---
 
 This checklist provides the steps necessary to create an iOS JMS client using the KAAZING Gateway Objective-C JMS client library:
 

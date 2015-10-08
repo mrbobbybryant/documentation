@@ -1,5 +1,10 @@
-Checklist: Build JavaScript JMS Clients Using KAAZING Gateway  ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
-=====================================================================================
+---
+Title: Checklist: Build JavaScript JMS Clients Using KAAZING Gateway
+Product: Gateway
+Section: javascript
+DocType: Regular
+Enterprise: True
+---
 
 This checklist provides the steps necessary to use the KAAZING Gateway JavaScript JMS client libraries available in KAAZING Gateway - Enterprise Edition to enable your web application to communicate with any JMS-compliant message broker, such as Apache ActiveMQ, using JavaScript:
 

@@ -1,5 +1,9 @@
-Build JavaScript AMQP Clients
-=============================
+---
+Title: Build JavaScript AMQP Clients
+Product: Gateway
+Section: javascript
+DocType: Regular
+---
 
 **Note:** To use the Gateway, a KAAZING client library, or a KAAZING demo, fork the repository from [kaazing.org](http://kaazing.org).
 

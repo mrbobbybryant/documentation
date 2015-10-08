@@ -1,5 +1,10 @@
-Walkthrough: Deploy Microsoft .NET or Silverlight JMS Clients to iOS or Android Using Xamarin  ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
-=============================================================================================
+---
+Title: Walkthrough: Deploy Microsoft .NET or Silverlight JMS Clients to iOS or Android Using Xamarin
+Product: Gateway
+Section: windows
+DocType: Regular
+Enterprise: True
+---
 
 In this walkthrough, you will learn how to deploy an existing Microsoft .NET JMS web client as a Xamarin app for iOS and Android. This procedure demonstrates how you can build a Microsoft .NET JMS client using the KAAZING Gateway Microsoft .NET JMS client library and then use Xamarin to deploy the client as an app on iOS or Android devices.
 
@@ -75,7 +80,7 @@ The following steps configure Xamarin Studio for building the iOS and Android ap
     5.  Click both **Kaazing.Gateway.dll** and **Kaazing.JMS.dll**, and then click **Add**.
     6.  Click **OK**.
 
-**Notes:** 
+**Notes:**
 -   `KaazingJMSXamarinDemo.Android and KaazingJMSXamarinDemo.iOS.Classic` both share `KaazingJMSXamarinDemo.Common`. The UI is defined once using Xamarin.Forms in `KaazingJMSXamarinDemo.Common` and is reused by the iOS and Android projects. Similarly, the code that handles user events in `KaazingJMSXamarinDemo.Common` is reused by the iOS and Android projects. This method demonstrates how to develop an app using C\# and deploy the same app to both iOS and Android.
 -   The Xamarin.Forms package is not available for the Unified API. As a result, `KaazingJMSXamarinDemo.iOS.Unified` defines its own UI using a storyboard and has code for dealing with user events. `KaazingJMSXamarinDemo.iOS.Unified` is not sharing or reusing the code from `KaazingJMSXamarinDemo.Common` like `KaazingJMSXamarinDemo.Android` and `KaazingJMSXamarinDemo.iOS.Classic` are. For more information, see [http://forums.xamarin.com/discussion/24616/xamarin-forms-and-ios-unified-api](http://forums.xamarin.com/discussion/24616/xamarin-forms-and-ios-unified-api).
 -   The KAAZING Gateway .NET client libraries, **Kaazing.Gateway.dll** and **Kaazing.JMS.dll**, are picked up from `GATEWAY_HOME/demo/xamarin/src/jms/KaazingLibs` automatically.
@@ -101,7 +106,7 @@ The following steps start the Apache ActiveMQ service that is included with the 
             </env.java.naming.factory.initial>
             <env.java.naming.provider.url>tcp://localhost:61616</env.java.naming.provider.url>
         </properties>
-        
+
         <realm-name>demo</realm-name>
         <!--
         <authorization-constraint>
@@ -178,5 +183,3 @@ Next Step
 ---------
 
 [Troubleshoot Your Microsoft .NET and Silverlight JMS Clients](p_dev_dotnet_tshoot_jms.md)
-
-

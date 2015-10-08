@@ -1,5 +1,9 @@
-Build Objective-C (iOS) WebSocket Clients
-=========================================
+---
+Title: Build Objective-C (iOS) WebSocket Clients
+Product: Gateway
+Section: ios
+DocType: Regular
+---
 
 **Note:** To use the Gateway, a KAAZING client library, or a KAAZING demo, fork the repository from [kaazing.org](http://kaazing.org).
 

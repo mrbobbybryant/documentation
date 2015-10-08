@@ -1,5 +1,10 @@
-Walkthrough: Deploy Microsoft .NET or Silverlight WebSocket Clients to iOS or Android Using Xamarin  ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
-========================================================================================================================
+---
+Title: Walkthrough: Deploy Microsoft .NET or Silverlight WebSocket Clients to iOS or Android Using Xamarin
+Product: Gateway
+Section: windows
+DocType: Regular
+Enterprise: True
+---
 
 In this walkthrough, you will learn how to deploy an existing Microsoft .NET WebSocket web client as a Xamarin app for iOS and Android. This procedure demonstrates how you can build a Microsoft .NET WebSocket client using the KAAZING Gateway Microsoft .NET WebSocket client library and then use Xamarin to deploy the client as an app on iOS or Android devices.
 
@@ -94,7 +99,7 @@ The following steps review the Echo service and start the Gateway.
 
 1.  Open the *GATEWAY\_HOME*/conf/gateway-config.xml file in a text editor. Review the **echo** service to see the configuration of the connection to the Gateway. For example:
 
-    ``` 
+    ```
     <service>
       <name>echo</name>
       <description>Simple echo service</description>
@@ -109,7 +114,7 @@ The following steps review the Echo service and start the Gateway.
         <require-role>AUTHORIZED</require-role>
       </authorization-constraint>
       -->
-      
+
       <cross-site-constraint>
         <allow-origin>http://${gateway.hostname}:${gateway.extras.port}</allow-origin>
       </cross-site-constraint>
@@ -176,7 +181,7 @@ WebSocket Event Handlers in Xamarin
 
 You can see the WebSocket event handlers in the file **KaazingGatewayDemoController.cs** in **KaazingGatewayXamarinDemo.Common**, shown below. The code demonstrates WebSocket open, close, and message events. In addition, the code demonstrates how to use a Login Handler and Challenge Handler to perform user authentication using the Gateway.
 
-``` 
+```
 using System;
 using Xamarin.Forms;
 using System.Collections.Generic;

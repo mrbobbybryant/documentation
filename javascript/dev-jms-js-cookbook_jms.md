@@ -1,5 +1,10 @@
-JavaScript JMS Cookbook for KAAZING Gateway  ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
-=================================================
+---
+Title: JavaScript JMS Cookbook for KAAZING Gateway
+Product: Gateway
+Section: javascript
+DocType: Regular
+Enterprise: True
+---
 
 This document contains the following sections:
 
@@ -36,7 +41,7 @@ JavaScript developers should be familiar with the following Javascript technique
 -   Handling errors with [**try**…**catch**](https://developer.mozilla.org/en/JavaScript/Reference/Statements/try...catch) blocks.
 
 **Notes:**
- 
+
 -   We also recommend the server-side [JMS Tutorial](http://docs.oracle.com/javaee/1.3/jms/tutorial/index.html) for understanding server-side JMS development.
 -   See [About KAAZING Gateway - Enterprise Edition](../about/about.md) to learm more about KAAZING Gateway - Enterprise Edition.
 
@@ -116,7 +121,7 @@ Establishing Connections to the Server
 
 This section shows you how to add standard boilerplate for creating a connection from your application to the Gateway and to your back-end JMS-compliant message broker. The code needed to create a JMS Connection via WebSocket from your application to the Gateway and the JMS-compliant message broker is standard, boilerplate code. Every application has a single `JmsConnectionFactory` and at least one `Connection` and `Session`. (The [Connection](http://developer.kaazing.com/documentation/jms/4.0/apidoc/client/javascript/jms/Connection.md "JsDoc: Connection") object is a client's active connection to its JMS provider. The [Session](http://developer.kaazing.com/documentation/jms/4.0/apidoc/client/javascript/jms/Session.md "JsDoc: Session") object is a single-threaded context for producing and consuming messages.) Once the connection is configured, you can modify the Connection and Session as needed.
 
-**Note:** To help you understand the following example, review the following API components and the jms service: 
+**Note:** To help you understand the following example, review the following API components and the jms service:
 -   [jms](../admin-reference/r_conf_jms.md#jms)
 -   [Session](http://developer.kaazing.com/documentation/jms/4.0/apidoc/client/javascript/jms/Session.md)
 -   [Connection](http://developer.kaazing.com/documentation/jms/4.0/apidoc/client/javascript/jms/Connection.md)
@@ -130,10 +135,10 @@ This section shows you how to add standard boilerplate for creating a connection
     var connection = null;
 
     /*
-    Create a function for creating a session and setting up 
+    Create a function for creating a session and setting up
     Topics, Queues, Consumers, Providers, and Listeners.
     The following function is called when the connection has been created
-    but before starting the flow of data. 
+    but before starting the flow of data.
     */
     function setUp() {
         // Typical session options shown.
@@ -152,7 +157,7 @@ This section shows you how to add standard boilerplate for creating a connection
         if (connection) {
             connectionStarted();
         } else {
-            /* 
+            /*
             Create a new object for the JMS connection to a JMS provider via WebSocket
             using the built-in constructor JmsConnectionFactory.
             */
@@ -169,7 +174,7 @@ This section shows you how to add standard boilerplate for creating a connection
                     getValue() returns the value from an asynchronous operation.
                     */
                     connection = future.getValue();
-                    /* 
+                    /*
                     With the connection established, but before starting the flow of data,
                     create the session.
                     */
@@ -199,7 +204,7 @@ This section shows you how to add standard boilerplate for creating a connection
 4.  Call `beginConnection()` with a WebSocket URL (for example, `ws://example.com:8000/jms`) after the page has loaded.
 
 **Notes:**
- 
+
 -   The `connection` variable is defined as a global. If you want to avoid using globals, package this code into a Javascript class or use the [module pattern](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript).
 -   The error handling (`catch(e)`) is in the code as a placeholder. You will want to improve this error handling to suit your needs.
 -   You might need to configure the Gateway to accept incoming connections on your selected port (such as port 8000):
@@ -229,7 +234,7 @@ Receiving Messages from a Topic or Queue
 
 Typically, an application listens for JMS Topics and Queues created by the server and might create *temporary* topics and queues client-side. A client-side **Listener** passes the incoming messages to a callback function.
 
-**Note:** To help you understand the following example, review the following API components: 
+**Note:** To help you understand the following example, review the following API components:
 -   [Session](http://developer.kaazing.com/documentation/jms/4.0/apidoc/client/javascript/jms/Session.md)
 -   [MessageConsumer](http://developer.kaazing.com/documentation/jms/4.0/apidoc/client/javascript/jms/MessageConsumer.md)
 -   [Message](http://developer.kaazing.com/documentation/jms/4.0/apidoc/client/javascript/jms/Message.md)
@@ -239,7 +244,7 @@ Typically, an application listens for JMS Topics and Queues created by the serve
 var topic = session.createTopic("topic.stock");
 /*
 Creates a MessageConsumer object for the specified destination.
-A client uses a MessageConsumer object to receive messages 
+A client uses a MessageConsumer object to receive messages
 that have been published to a destination.
 */
 var consumer = session.createConsumer(topic);
@@ -290,7 +295,7 @@ Sending Messages to JMS Topics and Queues
 
 Clients send messages to JMS Topics and Queues established by the server.
 
-**Note:** To help you understand the following example, review the following API components: 
+**Note:** To help you understand the following example, review the following API components:
 -   [Session](http://developer.kaazing.com/documentation/jms/4.0/apidoc/client/javascript/jms/Session.md)
 -   [Message](http://developer.kaazing.com/documentation/jms/4.0/apidoc/client/javascript/jms/Message.md)
 
@@ -338,7 +343,7 @@ Implementing Two-Way Communication
 This section provides examples of how to add two-way communication between your client and your JMS-compliant message broker. Many clients will need to send requests to the broker and receive individual responses. The easiest way to do this is with a public command queue on the broker and a temporary queue on the client (for responses). In cases where JMS messages have a
 `reply-to` field, the client sets the reply address back to its temporary queue.
 
-**Note:** To help you understand the following example, review the following API components: 
+**Note:** To help you understand the following example, review the following API components:
 -   [Session](http://developer.kaazing.com/documentation/jms/4.0/apidoc/client/javascript/jms/Session.md)
 -   [Message](http://developer.kaazing.com/documentation/jms/4.0/apidoc/client/javascript/jms/Message.md)
 
@@ -357,12 +362,12 @@ commandMessage.setStringProperty('command', command);
 // Send the message to the server
 commandMessage.setJMSReplyTo(responseQueue);
 commandMessage.setJMSCorrelationID('cmd-' + sendCount++);
-commandProducer.send(commandMessage); 
+commandProducer.send(commandMessage);
 
 // Handle the response from the server when it arrives
 function onCommandResponse(response) {
     try {
-        // The following string properties must match 
+        // The following string properties must match
         // the strings that the server-side code supplies
         var status = response.getStringProperty('status');
         if (status != 'ok')
@@ -416,7 +421,7 @@ In this section, we'll create topics and queues to send to the JMS-compliant mes
 The server should extract the JmsReplyTo value ([getJMSReplyTo](http://developer.kaazing.com/documentation/jms/4.0/apidoc/client/javascript/jms/Message.md#getJMSReplyTo)) and use it as the address for the return message (lines 2, 4, and 10.) Also copy the correlation ID ([getJMSCorrelationID](http://developer.kaazing.com/documentation/jms/4.0/apidoc/client/javascript/jms/Message.md#getJMSCorrelationID "JsDoc: Message")) from the original message to the response when available (line 7).
 
 **Note:** To help you understand the following example, review the following JMS client and server-side components:
- 
+
 -   [Message](http://developer.kaazing.com/documentation/jms/4.0/apidoc/client/javascript/jms/Message.md)
 -   *[JMS Tutorial](http://docs.oracle.com/javaee/1.3/jms/tutorial/index.html)*
 
@@ -443,7 +448,7 @@ Reference
 The JMS client library is modeled on the [Java Message Service](http://docs.oracle.com/javaee/1.3/jms/tutorial/index.html) APIs:
 
 | Object             | Role                                         | Created by                                       |
-|--------------------|----------------------------------------------|--------------------------------------------------|
+|:-------------------|:---------------------------------------------|:-------------------------------------------------|
 | Connection Factory | Manages connections to the server            | Call `new JmsConnectionFactory          `        |
 | Connection         | Handles multiple message streams             | Ask the factory: `factory.createConnection`      |
 | Session            | Handles a group of topics and queues         | Ask the connection: `connection.createSession`   |
@@ -485,5 +490,3 @@ Summary
 -------
 
 The Javascript JMS client libraries closely match the server-side JMS libraries. For more information about the KAAZING Gateway JavaScript JMS Client API, see [KAAZING Gateway JMS Client Libraries: Supported APIs](../about/kaazing-jms-api.md).
-
-

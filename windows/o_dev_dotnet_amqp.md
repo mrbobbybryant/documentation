@@ -1,5 +1,10 @@
-Build Microsoft .NET and Silverlight AMQP Clients  ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
-====================================================================
+---
+Title: Build Microsoft .NET and Silverlight AMQP Clients
+Product: Gateway
+Section: windows
+DocType: Regular
+Enterprise: True
+---
 
 This checklist provides the steps necessary to use the signed KAAZING Gateway AMQP client libraries for Microsoft .NET and Silverlight to enable your .NET Framework or Silverlight application to communicate with any AMQP broker:
 

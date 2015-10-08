@@ -1,5 +1,10 @@
-Build Microsoft Windows Mobile JMS Clients![KAAZING Gateway Enterprise Feature](https://github.com/kaazing/gateway/blob/develop/doc/images/enterprise-feature.png)
-============================================================
+---
+Title: Build Microsoft Windows Mobile JMS Clients
+Product: Gateway
+Section: windows
+DocType: Regular
+Enterprise: True
+---
 
 This topic provides the information needed to create a Microsoft Windows Mobile app using the KAAZING Gateway .NET and Silverlight JMS API.
 
@@ -8,11 +13,11 @@ For information on using the KAAZING Gateway .NET and Silverlight JMS API to cre
 **Note:** The KAAZING Gateway .NET and Silverlight JMS API supports Microsoft Windows Phone 8.1 and higher, Microsoft Windows Mobile 10, and Microsoft Windows Surface RT. It does not support Windows CE.
 
 
-| #   | Step                                                                       | Section or Reference                                           |
-| --- | -------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| 1   | Learn how to use the JMS API provided by the KAAZING .NET and Silverlight JMS client library. | [Use the Microsoft Windows Mobile WebSocket Client API](#use-the-microsoft-windows-phone-websocket-client-api) |
-| 2   | Learn how to authenticate your client with the Gateway.                    | [Secure Your Microsoft Windows Mobile JMS Client](#secure-your-microsoft-windows-phone-client)                     |
-| 3   | Set up logging for your client.                                            | [Display Logs for the Microsoft Windows Mobile JMS Client](#display-logs-for-the-microsoft-windows-phone-client)        |
+| # | Step                                                                                          | Section or Reference                                                                                             |
+|:--|:----------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------|
+| 1 | Learn how to use the JMS API provided by the KAAZING .NET and Silverlight JMS client library. | [Use the Microsoft Windows Mobile WebSocket Client API](#use-the-microsoft-windows-phone-websocket-client-api)   |
+| 2 | Learn how to authenticate your client with the Gateway.                                       | [Secure Your Microsoft Windows Mobile JMS Client](#secure-your-microsoft-windows-phone-client)                   |
+| 3 | Set up logging for your client.                                                               | [Display Logs for the Microsoft Windows Mobile JMS Client](#display-logs-for-the-microsoft-windows-phone-client) |
 
 
 ### Introduction
@@ -42,16 +47,16 @@ In this procedure, you will learn how to create a Windows Mobile app using the K
 
 Before you get started, review the components and tools used to build the Microsoft Windows Mobile JMS client in this procedure.
 
-| Component or Tool                                   | Description                                                                                                                                                                                                                             | Location                                                                                                                                                                                                                                                              |
-| --------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| KAAZING Gateway - Enterprise Edition | KAAZING Gateway provides a highly scalable, near zero-latency, full-duplex solution for JMS applications.                                                                                                               | The KAAZING Gateway is available at [kaazing.com](http://kaazing.com/products/editions/kaazing-websocket-gateway-jms/).
-| Target Framework or Environment                     | Microsoft Windows Mobile devices                                                                                                                                                                                                         | [Windows Mobile website](https://www.windowsphone.com/en-us)                                                                                                                                                                                                                                                 |
-| Library for target deployment environment           | The DLLs needed to build a Microsoft Windows Mobile JMS app. | There are two DLLs, Kaazing.Gateway.dll and Kaazing.JMS.dll. They are available in the KAAZING Gateway distribution (`GATEWAY_HOME/lib/client/dotnet`).                                                                                              |
-| JMS-compliant message broker                                    | KAAZING Gateway will work with any JMS message broker.                                                                                                                                                                                                                           | The open source Apache ActiveMQ broker is included in the KAAZING Gateway distribution.                                                                                                                                                                                                                                          |
-| Development Tool                                    | Visual Studio                                                                                                                                                                                                                           | [www.visualstudio.com](http://www.visualstudio.com)                                                                                                                                                                                                                                          |
-| Package Installer (optional)                        | You can use the NuGet Package Manager to install the Microsoft Windows Mobile JMS client library as a Nuget Package.                                                                                                               | Starting with Visual Studio 2012, NuGet is included in every edition (except Team Foundation Server) by default. Updates to NuGet can be found through the Extension Manager. For Visual Studio 2010, NuGet is available through the Visual Studio Extension Manager. |
-| NuGet Command-Line (optional)                       | NuGet Command-Line Utility                                                                                                                                                                                                              | [https://docs.nuget.org/consume/installing-nuget](https://docs.nuget.org/consume/installing-nuget)                                                                                                                                                                                                                       |
-| Secure Networking of TLS/SSL                        | A Microsoft Windows Mobile JMS client runs on Microsoft Windows Mobile devices. Windows Mobile devices manage TLS/SSL connections, requesting TLS/SSL certificates from KAAZING Gateway.           | See the article, [Installing digital certificates](https://msdn.microsoft.com/en-us/library/dn643705.aspx), from Microsoft.                                                                                                                                                                                                     |
+| Component or Tool                         | Description                                                                                                                                                                              | Location                                                                                                                                                                                                                                                              |
+|:------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| KAAZING Gateway - Enterprise Edition      | KAAZING Gateway provides a highly scalable, near zero-latency, full-duplex solution for JMS applications.                                                                                | The KAAZING Gateway is available at [kaazing.com](http://kaazing.com/products/editions/kaazing-websocket-gateway-jms/).                                                                                                                                               |
+| Target Framework or Environment           | Microsoft Windows Mobile devices                                                                                                                                                         | [Windows Mobile website](https://www.windowsphone.com/en-us)                                                                                                                                                                                                          |
+| Library for target deployment environment | The DLLs needed to build a Microsoft Windows Mobile JMS app.                                                                                                                             | There are two DLLs, Kaazing.Gateway.dll and Kaazing.JMS.dll. They are available in the KAAZING Gateway distribution (`GATEWAY_HOME/lib/client/dotnet`).                                                                                                               |
+| JMS-compliant message broker              | KAAZING Gateway will work with any JMS message broker.                                                                                                                                   | The open source Apache ActiveMQ broker is included in the KAAZING Gateway distribution.                                                                                                                                                                               |
+| Development Tool                          | Visual Studio                                                                                                                                                                            | [www.visualstudio.com](http://www.visualstudio.com)                                                                                                                                                                                                                   |
+| Package Installer (optional)              | You can use the NuGet Package Manager to install the Microsoft Windows Mobile JMS client library as a Nuget Package.                                                                     | Starting with Visual Studio 2012, NuGet is included in every edition (except Team Foundation Server) by default. Updates to NuGet can be found through the Extension Manager. For Visual Studio 2010, NuGet is available through the Visual Studio Extension Manager. |
+| NuGet Command-Line (optional)             | NuGet Command-Line Utility                                                                                                                                                               | [https://docs.nuget.org/consume/installing-nuget](https://docs.nuget.org/consume/installing-nuget)                                                                                                                                                                    |
+| Secure Networking of TLS/SSL              | A Microsoft Windows Mobile JMS client runs on Microsoft Windows Mobile devices. Windows Mobile devices manage TLS/SSL connections, requesting TLS/SSL certificates from KAAZING Gateway. | See the article, [Installing digital certificates](https://msdn.microsoft.com/en-us/library/dn643705.aspx), from Microsoft.                                                                                                                                           |
 
 ### Taking a Look at the Microsoft Windows Mobile JMS Client Demo
 
@@ -219,7 +224,7 @@ The following example is taken from a Windows Mobile JMS Client demo and include
         ...
         session = connection.CreateSession(false, SessionConstants.AUTO_ACKNOWLEDGE);
 ```
-The `JMS_SubscribeAsync` method demonstrates how the JMS client uses the destination specified by the user, the string `/topic/`, to create a topic (`session.CreateTopic(dest)`), and how the client creates a queue (`session.CreateQueue(dest)`) if the destination is missing the string `/topic/`. 
+The `JMS_SubscribeAsync` method demonstrates how the JMS client uses the destination specified by the user, the string `/topic/`, to create a topic (`session.CreateTopic(dest)`), and how the client creates a queue (`session.CreateQueue(dest)`) if the destination is missing the string `/topic/`.
 
 `JMS_SubscribeAsync` also creates a consumer of the topic or queue (`session.CreateConsumer(destination)`) and a `MessageListener` to receive asynchronously delivered messages.
 
@@ -290,7 +295,7 @@ The `JMS_SubscribeAsync` method demonstrates how the JMS client uses the destina
 
 #### Sending and Receiving Messages
 
-The following example is taken from a Windows Mobile JMS Client demo and includes the [`JMS_SendAsync`](https://github.com/chao-sun-kaazing/enterprise.dotnet.client/blob/develop/jms/demo/WindowsPhone/JmsDemo/MainPage.xaml.cs#L413-L501) method. 
+The following example is taken from a Windows Mobile JMS Client demo and includes the [`JMS_SendAsync`](https://github.com/chao-sun-kaazing/enterprise.dotnet.client/blob/develop/jms/demo/WindowsPhone/JmsDemo/MainPage.xaml.cs#L413-L501) method.
 
 `JMS_SendAsync` creates a topic or queue from the destination supplied by the user the same way as `JMS_SubscribeAsync`. Next, it creates the message to send using `iMessage` and `session.CreateTextMessage(msg)`. The `iMessage` interface is the root interface of all JMS messages. It defines the message header and the acknowledge method used for all messages. Once the message is created, `JMS_SendAsync` creates the producer (using 'IMessageProducer' and the destination), sends the message (using `producer.Send(message)`), and closes the producer.
 
@@ -330,7 +335,7 @@ To send the text message input as binary, `IBytesMessage` is used. `IBytesMessag
                     sb.AppendLine("SEND TEXT: " + msg + ": " + dest);
                     message = session.CreateTextMessage(msg);
                 }
-                    
+
                 await Task.Run(() =>
                 {
                     // Create the producer, send, and close
@@ -420,7 +425,7 @@ The completed demo looks file the following:
     5. To see the library package, in **Solution Explorer**, expand the **References** section. **Kaazing.WebSocket** and **Kaazing.JMS** are listed. You can double-click a package to see it in the **Object Browser**.
 4. Create the main files for the program. The following steps demonstrate the primary programming steps involved in creating the demo or any client using the KAAZING Gateway Windows Mobile JMS client library.
     6. In your Visual Studio Windows Mobile project, click **MainPage.xaml**.
-    7. Replace the contents of **MainPage.xaml** with the code in [MainPage.xaml](https://github.com/chao-sun-kaazing/enterprise.dotnet.client/blob/develop/jms/demo/WindowsPhone/JmsDemo/MainPage.xaml) in the [Windows Mobile JMS Demo repo](https://github.com/chao-sun-kaazing/enterprise.dotnet.client/tree/develop/jms/demo/WindowsPhone/JmsDemo). 
+    7. Replace the contents of **MainPage.xaml** with the code in [MainPage.xaml](https://github.com/chao-sun-kaazing/enterprise.dotnet.client/blob/develop/jms/demo/WindowsPhone/JmsDemo/MainPage.xaml) in the [Windows Mobile JMS Demo repo](https://github.com/chao-sun-kaazing/enterprise.dotnet.client/tree/develop/jms/demo/WindowsPhone/JmsDemo).
     8. Expand **MainPage.xaml** to reveal **MainPage.xaml.cs**.
     9. Replace the contents of **MainPage.xaml.cs** with the code in [MainPage.xaml.cs](https://github.com/chao-sun-kaazing/enterprise.dotnet.client/blob/develop/jms/demo/WindowsPhone/JmsDemo/MainPage.xaml.cs).
     10. Right-click **MainPage.xaml.cs** and then click **View Designer**. The designer displays the Windows Mobile WebSocket Demo GUI.
@@ -455,7 +460,7 @@ The completed demo looks file the following:
 10. Click **Send**. The message is sent to the destination.
 
 10. Click the **Binary** checkbox and click **Send** again. The message is sent to the destination and the binary message is received:
-    
+
     ``` bash
     TODO
     ```
@@ -471,11 +476,11 @@ The following demo files are used for the KAAZING Gaterway Microsoft Windows Mob
 
 ## Secure Your Microsoft Windows Mobile Client
 
-This topic provides information on how to add user authentication functionality to KAAZING Gateway Windows Mobile clients. The KAAZING Gateway Windows Mobile Clients use the KAAZING Gateway Microsoft .NET and Silverlight API authentication classes and methods. For information on these authentication classes and methods, see [Secure Your Microsoft .NET and Silverlight Client](https://github.com/kaazing/enterprise.dotnet.client/blob/develop/ws/ws/doc/p_dev_dotnet_secure.md). 
+This topic provides information on how to add user authentication functionality to KAAZING Gateway Windows Mobile clients. The KAAZING Gateway Windows Mobile Clients use the KAAZING Gateway Microsoft .NET and Silverlight API authentication classes and methods. For information on these authentication classes and methods, see [Secure Your Microsoft .NET and Silverlight Client](https://github.com/kaazing/enterprise.dotnet.client/blob/develop/ws/ws/doc/p_dev_dotnet_secure.md).
 
 ### Creating a Basic Challenge Handler
 
-Authenticating your client involves implementing a challenge handler to respond to authentication challenges from the KAAZING Gateway. If your challenge handler is responsible for obtaining user credentials, then you will also need to implement a login handler. 
+Authenticating your client involves implementing a challenge handler to respond to authentication challenges from the KAAZING Gateway. If your challenge handler is responsible for obtaining user credentials, then you will also need to implement a login handler.
 
 Here is an example of a challenge handler and login handler for a Windows Mobile app. The challenge handler manages the authentication challenge from the KAAZING Gateway, and the login handler is used to obtain the user credentials and return them to the challenge handler as part of a callback.
 
@@ -551,7 +556,7 @@ namespace JmsDemo
 
                     popup.Child = border;
                 }
-                popup.IsOpen = true; 
+                popup.IsOpen = true;
             });
         }
 ...
@@ -563,8 +568,6 @@ Learn more about the authentication options available to your Windows Mobile cli
 
 ## Display Logs for the Microsoft Windows Mobile Client
 
-The KAAZING Gateway Windows Mobile Clients use the KAAZING Gateway Microsoft .NET and Silverlight API logging and debugging features. For information on these authentication classes and methods, see [Display Logs for Microsoft .NET and Silverlight Clients](https://github.com/kaazing/enterprise.dotnet.client/blob/develop/ws/ws/doc/p_clientlogging_dotnet.md). 
+The KAAZING Gateway Windows Mobile Clients use the KAAZING Gateway Microsoft .NET and Silverlight API logging and debugging features. For information on these authentication classes and methods, see [Display Logs for Microsoft .NET and Silverlight Clients](https://github.com/kaazing/enterprise.dotnet.client/blob/develop/ws/ws/doc/p_clientlogging_dotnet.md).
 
 Visual Studio includes debugging features for Windows Mobile 8. For more information, see [Phone Debugging in Visual Studio 2013 Update 2](http://blogs.msdn.com/b/visualstudioalm/archive/2014/04/04/phone-debugging-in-visual-studio-2013-update-2.aspx) from Microsoft.
-
-

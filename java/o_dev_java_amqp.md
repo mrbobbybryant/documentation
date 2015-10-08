@@ -1,5 +1,9 @@
-Build Java AMQP Clients
-=======================
+---
+Title: Build Java AMQP Clients
+Product: Gateway
+Section: java
+DocType: Regular
+---
 
 Note: To use the Gateway, a KAAZING client library, or a KAAZING demo, fork the repository from [kaazing.org](http://kaazing.org).
 This checklist provides the steps necessary to enable your Java application to communicate with any AMQP 0-9-1 compliant message broker using the KAAZING Gateway AMQP Java client libraries and either the Gateway or and RFC-6455 WebSocket endpoint that supports AMQP 0-9-1:

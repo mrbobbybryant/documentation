@@ -1,5 +1,10 @@
-Build C AMQP Clients  ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
-=======================================
+---
+Title: Build C AMQP Clients
+Product: Gateway
+Section: c
+DocType: Regular
+Enterprise: True
+---
 
 This checklist provides the steps necessary to build AMQP clients to communicate with KAAZING Gateway:
 
