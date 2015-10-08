@@ -1,5 +1,5 @@
 ---
-Title: Checklist: Build Android JMS Clients Using KAAZING Gateway
+Title: Build Android JMS Clients Using KAAZING Gateway
 Product: Gateway
 Section: java
 DocType: Regular

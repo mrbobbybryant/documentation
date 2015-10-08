@@ -1,5 +1,5 @@
 ---
-Title: Checklist: Build Objective-C (iOS) JMS Clients Using KAAZING Gateway
+Title: Build Objective-C (iOS) JMS Clients Using KAAZING Gateway
 Product: Gateway
 Section: ios
 DocType: Regular
