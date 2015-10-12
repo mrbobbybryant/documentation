@@ -5,7 +5,7 @@ Section: about
 DocType: Regular
 ---
 
-This guide helps you download the Gateway distribution and set it up in your environment:
+This guide helps you download the Gateway distribution and set it up in your environment.
 
 -   [Setting Up KAAZING Gateway Locally on My Computer](#setting-up-kaazing-gateway-locally-on-my-computer)
 -   [Setting Up KAAZING Gateway on a Server](#setting-up-kaazing-gateway-on-a-server)
