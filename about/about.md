@@ -13,7 +13,7 @@ This topic contains the following sections:
 -   [About KAAZING_HOME](#about-kaazing_home)
 -   [About GATEWAY_HOME](#about-gateway_home)
 
-Text Conventions
+Text Conventionsssssss
 ---------------------------------------------
 
 The following text conventions are used in the Kaazing WebSocket Gateway topics.
