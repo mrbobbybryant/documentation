@@ -1,5 +1,5 @@
 ---
-Title: Walkthrough: Integrate Excel with KAAZING Gateway
+Title: Integrate Excel with KAAZING Gateway
 Product: Gateway
 Section: windows
 DocType: Regular
