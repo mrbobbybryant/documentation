@@ -1,5 +1,9 @@
-Build WebSocket C Clients
-=========================
+---
+Title: Build WebSocket C Clients
+Product: Gateway
+Section: c
+DocType: Regular
+---
 
 **Note:** To use the KAAZING Gateway, a KAAZING Gateway client library, or a KAAZING Gateway demo, fork the repository from [kaazing.org](http://kaazing.org).
 This checklist provides the steps necessary to build WebSocket C clients to communicate with the KAAZING Gateway or any RFC-6455 WebSocket endpoint:
