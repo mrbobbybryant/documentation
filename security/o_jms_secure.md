@@ -1,5 +1,9 @@
-Checklist: Secure Your JMS Configuration
-========================================
+---
+Title: Checklist: Secure Your JMS Configuration
+Product: Gateway
+Section: security
+DocType: Regular
+---
 
 The following checklist provides the steps necessary to secure KAAZING Gateway integration with JMS-compliant message brokers.
 

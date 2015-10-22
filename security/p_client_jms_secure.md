@@ -1,5 +1,9 @@
-Secure the Connection from Each Client to the Gateway
-========================================================
+---
+Title: Secure the Connection from Each Client to the Gateway
+Product: Gateway
+Section: security
+DocType: Regular
+---
 
 In this procedure, you will learn how to configure JMS-specific authentication and authorization for JMS clients.
 

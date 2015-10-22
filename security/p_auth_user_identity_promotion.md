@@ -1,5 +1,9 @@
-Promote User Identity into the AMQP Protocol
-================================================
+---
+Title: Promote User Identity into the AMQP Protocol
+Product: Gateway
+Section: security
+DocType: Regular
+---
 
 This topic describes User Identity Promotion and how to promote credentials into the AMQP protocol for back-end servers or brokers that require additional information. AMQP user identity promotion uses AMQP 0-9-1 and KAAZING Gateway.
 

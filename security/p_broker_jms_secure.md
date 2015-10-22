@@ -1,5 +1,9 @@
-Secure the Connection from the Gateway to the Message Broker
-===============================================================
+---
+Title: Secure the Connection from the Gateway to the Message Broker
+Product: Gateway
+Section: security
+DocType: Regular
+---
 
 In this procedure, you will learn how to use service properties to pass in the user name and password for connections made to the back-end message broker.
 

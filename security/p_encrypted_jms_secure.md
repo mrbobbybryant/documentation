@@ -1,5 +1,9 @@
-Configure the Gateway to Use Encrypted Credentials
-=====================================================
+---
+Title: Configure the Gateway to Use Encrypted Credentials
+Product: Gateway
+Section: security
+DocType: Regular
+---
 
 In this procedure, you will learn how to configure the Gateway to connect to the back-end JMS-compliant message broker using encrypted credentials.
 

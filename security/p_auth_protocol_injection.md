@@ -1,5 +1,10 @@
-Implement Protocol Injection![Enterprise Edition](../images/enterprise-feature.png)
-===========================================================================
+---
+Title: Implement Protocol Injection
+Product: Gateway
+Section: security
+DocType: Regular
+Enterprise: True
+---
 
 This topic describes Protocol Injection and how to configure KAAZING Gateway to implement protocol injection:
 

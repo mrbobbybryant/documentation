@@ -1,5 +1,9 @@
-Configure Auditing Messages Produced by Clients
-===============================================
+---
+Title: Configure Auditing Messages Produced by Clients
+Product: Gateway
+Section: security
+DocType: Regular
+---
 
 In this procedure, you will learn how to stamp messages flowing from each client connected to the Gateway with an ID for auditing purposes.
 
