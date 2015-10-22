@@ -1,5 +1,10 @@
-Integrate Informatica Ultra Messaging  ![This feature is available in KAAZING Gateway - Enterprise Edition](../images/enterprise-feature.png)
-=====================================
+---
+Title: Integrate Informatica Ultra Messaging
+Product: Gateway
+Section: integration-jms
+DocType: Regular
+Enterprise: True
+---
 
 In this procedure, you will learn how to integrate KAAZING Gateway and Informatica Ultra Messaging, a family of next-generation low latency messaging software products.
 

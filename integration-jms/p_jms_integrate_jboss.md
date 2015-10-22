@@ -1,5 +1,10 @@
-Integrate JBoss Messaging  ![This feature is available in KAAZING Gateway - Enterprise Edition](../images/enterprise-feature.png)
-=========================
+---
+Title: Integrate JBoss Messaging
+Product: Gateway
+Section: integration-jms
+DocType: Regular
+Enterprise: True
+---
 
 In this procedure, you will learn how to integrate KAAZING Gateway and JBoss Messaging, a high-performance JMS provider that is used in combination with JBoss Application Server.
 

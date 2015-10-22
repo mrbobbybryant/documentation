@@ -1,5 +1,10 @@
-About Integrating KAAZING Gateway and JMS-Compliant Message Brokers  ![This feature is available in KAAZING Gateway - Enterprise Edition](../images/enterprise-feature.png)
-=========================================================================
+---
+Title: About Integrating KAAZING Gateway and JMS-Compliant Message Brokers
+Product: Gateway
+Section: integration-jms
+DocType: Regular
+Enterprise: True
+---
 
 KAAZING Gateway allows client applications to communicate directly with any JMS-compliant message broker (for example, TIBCO EMS, IBM WebSphere MQ (formerly known as MQSeries), and Informatica Ultra Messaging by way of the `jms` service. It is common for JMS implementations to be configured with existing entitlement systems that govern which users can access certain topics or queues.
 

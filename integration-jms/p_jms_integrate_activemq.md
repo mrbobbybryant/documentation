@@ -1,5 +1,10 @@
-Integrate Apache ActiveMQ  ![This feature is available in KAAZING Gateway - Enterprise Edition](../images/enterprise-feature.png)
-=========================
+---
+Title: Integrate Apache ActiveMQ
+Product: Gateway
+Section: integration-jms
+DocType: Regular
+Enterprise: True
+---
 
 In this procedure, you will learn how to integrate KAAZING Gateway and Apache ActiveMQ, a powerful open source messaging server.
 

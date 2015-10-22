@@ -1,5 +1,10 @@
-Integrate Open MQ Messaging  ![This feature is available in KAAZING Gateway - Enterprise Edition](../images/enterprise-feature.png)
-===========================
+---
+Title: Integrate Open MQ Messaging
+Product: Gateway
+Section: integration-jms
+DocType: Regular
+Enterprise: True
+---
 
 In this procedure, you will learn how to integrate KAAZING Gateway and Open Message Queue (Open MQ), a community sponsored, messaging middleware product that implements and extends the Java Message Service (JMS) standard.
 

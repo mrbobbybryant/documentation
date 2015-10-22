@@ -1,5 +1,10 @@
-Troubleshoot JMS Integration  ![This feature is available in KAAZING Gateway - Enterprise Edition](../images/enterprise-feature.png)
-============================
+---
+Title: Troubleshoot JMS Integration
+Product: Gateway
+Section: integration-jms
+DocType: Regular
+Enterprise: True
+---
 
 This topic covers troubleshooting issues related to integrating a JMS-compliant message broker with KAAZING Gateway.
 

@@ -1,5 +1,10 @@
-Integrate Oracle WebLogic JMS  ![This feature is available in KAAZING Gateway - Enterprise Edition](../images/enterprise-feature.png)
-=============================
+---
+Title: Integrate Oracle WebLogic JMS
+Product: Gateway
+Section: integration-jms
+DocType: Regular
+Enterprise: True
+---
 
 In this procedure, you will learn how to integrate KAAZING Gateway and [Oracle WebLogic JMS](http://docs.oracle.com/cd/E13222_01/wls/docs81/jms/intro.html), an enterprise-class messaging system that is tightly integrated into the WebLogic Server platform.
 

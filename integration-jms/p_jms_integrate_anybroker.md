@@ -1,5 +1,10 @@
-Integrate Any JMS-Compliant Message Broker  ![This feature is available in KAAZING Gateway - Enterprise Edition](../images/enterprise-feature.png)
-==========================================
+---
+Title: Integrate Any JMS-Compliant Message Broker
+Product: Gateway
+Section: integration-jms
+DocType: Regular
+Enterprise: True
+---
 
 In this procedure, you will learn how the [jms](../admin-reference/r_conf_jms.md#jms) service allows you to configure KAAZING Gateway to connect to any back-end JMS-compliant message broker.
 
