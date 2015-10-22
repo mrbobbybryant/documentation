@@ -1,5 +1,5 @@
 ---
-Title: Walkthrough: Deploy a JavaScript JMS App as a Hybrid iOS App
+Title: Deploy a JavaScript JMS App as a Hybrid iOS App
 Product: Gateway
 Section: javascript
 DocType: Regular
