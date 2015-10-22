@@ -1,5 +1,5 @@
 ---
-Title: Checklist: Secure Your JMS Configuration
+Title: Secure Your JMS Configuration
 Product: Gateway
 Section: security
 DocType: Regular
