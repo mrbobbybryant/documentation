@@ -14,6 +14,7 @@ Essentials
 -   [Setting Up the Gateway](about/setup-guide.md)
 -   [Upgrade the Gateway](upgrade/o_upgrade.md)
 
+
 For Developers
 ---------------------------------------
 
@@ -21,43 +22,43 @@ For Developers
 
 #### WebSocket Mobile Clients
 
--   [Build Objective-C (iOS) WebSocket Clients](https://github.com/kaazing/ios.client/blob/develop/ws/doc/o_dev_objc.md)
--   [Build Android and Java WebSocket Clients](https://github.com/kaazing/android.client/blob/develop/migrated/gateway.client.android/doc/o_dev_android.md)
+-   [Build Objective-C (iOS) WebSocket Clients](ios/o_dev_objc.md)
+-   [Build Android and Java WebSocket Clients](java/o_dev_android.md)
 
 
 #### JMS Mobile Clients
 
--   [Walkthrough: Deploy a JavaScript JMS App as a Hybrid iOS App](https://github.com/kaazing/enterprise.javascript.client/blob/develop/jms/doc/hybrid_ios_walkthrough_jms.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
--   [Walkthrough: Deploy a JavaScript JMS App as a Hybrid Android App](https://github.com/kaazing/enterprise.javascript.client/blob/develop/jms/doc/hybrid_android_walkthrough.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
--   [Walkthrough: Deploy Microsoft .NET or Silverlight JMS Clients to iOS or Android Using Xamarin](https://github.com/kaazing/enterprise.dotnet.client/blob/develop/ws/ws/doc/xamarin_dotnet_walkthrough_websocket.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
+-   [Walkthrough: Deploy a JavaScript JMS App as a Hybrid iOS App](javascript/hybrid_ios_walkthrough_jms.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
+-   [Walkthrough: Deploy a JavaScript JMS App as a Hybrid Android App](javascript/hybrid_android_walkthrough.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
+-   [Walkthrough: Deploy Microsoft .NET or Silverlight JMS Clients to iOS or Android Using Xamarin](windows/xamarin_dotnet_walkthrough_websocket.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
 
 ### Web and Desktop
 
 #### WebSocket Clients
 
--   [Build JavaScript WebSocket Clients](https://github.com/kaazing/javascript.client/blob/develop/gateway/doc/o_dev_js.md)
--   [Build Flash WebSocket Clients](https://github.com/kaazing/enterprise.flash.client/blob/develop/migrated/gateway.client.flash/doc/o_dev_flash.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
--   [Build Microsoft .NET and Silverlight WebSocket Clients](https://github.com/kaazing/enterprise.dotnet.client/blob/develop/ws/ws/doc/o_dev_dotnet.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
--   [Build WebSocket C Clients](https://github.com/kaazing/c.client/blob/develop/ws/doc/o_dev_c_websocket.md)
+-   [Build JavaScript WebSocket Clients](javascript/o_dev_js.md)
+-   [Build Flash WebSocket Clients](flash/o_dev_flash.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
+-   [Build Microsoft .NET and Silverlight WebSocket Clients](windows/o_dev_dotnet.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
+-   [Build WebSocket C Clients](c/o_dev_c_websocket.md)
 
 #### AMQP Clients
 
--   [Real-Time Interactive Guide to AMQP](https://github.com/kaazing/javascript.client/blob/develop/amqp-0-9-1/doc/guide-amqp.md)
--   [Build JavaScript AMQP Clients](https://github.com/kaazing/javascript.client/blob/develop/amqp-0-9-1/doc/o_dev_js_amqp.md)
--   [Build Flash AMQP Clients](https://github.com/kaazing/enterprise.flash.client/blob/develop/migrated/amqp.client.flash/doc/o_dev_flash_amqp.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
--   [Build Microsoft .NET and Silverlight AMQP Clients](https://github.com/kaazing/enterprise.dotnet.client/blob/develop/amqp/amqp/doc/o_dev_dotnet_amqp.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
--   [Build Java AMQP Clients](https://github.com/kaazing/java.client/blob/develop/amqp-0-9-1/doc/o_dev_java_amqp.md)
--   [Build C AMQP Clients](https://github.com/kaazing/c.client/blob/develop/amqp/amqp-websocket-c/doc/o_dev_c_amqp.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
+-   [Real-Time Interactive Guide to AMQP](javascript/guide-amqp.md)
+-   [Build JavaScript AMQP Clients](javascript/o_dev_js_amqp.md)
+-   [Build Flash AMQP Clients](flash/o_dev_flash_amqp.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
+-   [Build Microsoft .NET and Silverlight AMQP Clients](windows/o_dev_dotnet_amqp.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
+-   [Build Java AMQP Clients](java/o_dev_java_amqp.md)
+-   [Build C AMQP Clients](c/o_dev_c_amqp.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
 
 #### JMS Clients
 
--   [Build Objective-C (iOS) JMS Clients](https://github.com/kaazing/enterprise.ios.client/blob/develop/jms/doc/o_dev_objc_jms.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
--   [Build Android JMS Clients](https://github.com/kaazing/enterprise.android.client/blob/develop/migrated/jms.client.android/doc/o_dev_android_jms.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
--   [Build JavaScript JMS Clients](https://github.com/kaazing/enterprise.javascript.client/blob/develop/jms/doc/o_dev_js_jms.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
--   [Build Flash JMS Clients](https://github.com/kaazing/enterprise.flash.client/blob/develop/migrated/jms.client.flash/doc/o_dev_flash_jms.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
--   [Build Microsoft .NET and Silverlight JMS Clients](https://github.com/kaazing/enterprise.dotnet.client/blob/develop/jms/jms/doc/o_dev_dotnet_jms.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
--   [Walkthrough: Integrate Excel with KAAZING Gateway](https://github.com/kaazing/enterprise.dotnet.client/blob/develop/jms/jms/doc/excel_jms_walkthrough_jms.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
--   [Build Java JMS Clients](https://github.com/kaazing/enterprise.java.client/blob/develop/jms/doc/o_dev_java_jms.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
+-   [Build Objective-C (iOS) JMS Clients](ios/o_dev_objc_jms.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
+-   [Build Android JMS Clients](java/o_dev_android_jms.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
+-   [Build JavaScript JMS Clients](javascript/o_dev_js_jms.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
+-   [Build Flash JMS Clients](flash/o_dev_flash_jms.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
+-   [Build Microsoft .NET and Silverlight JMS Clients](windows/o_dev_dotnet_jms.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
+-   [Walkthrough: Integrate Excel with KAAZING Gateway](windows/excel_jms_walkthrough_jms.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
+-   [Build Java JMS Clients](java/o_dev_java_jms.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
 
 ### Embedded
 
@@ -100,7 +101,7 @@ For Administrators
 -   [Configure the Gateway for High Availability](high-availability/o_high_availability.md)
 
 ### JMS-Compliant Message Brokers
--   [Integrate with JMS-Compliant Message Brokers](https://github.com/kaazing/enterprise.gateway/blob/develop/doc/integration-jms/o_jms_integrate.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
+-   [Integrate with JMS-Compliant Message Brokers](integration-jms/o_jms_integrate.md) ![This feature is available in KAAZING Gateway - Enterprise Edition](images/enterprise-feature.png)
 
 Client API Documentation
 ------------------------
