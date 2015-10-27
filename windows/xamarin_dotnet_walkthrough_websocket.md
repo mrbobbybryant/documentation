@@ -1,5 +1,5 @@
 ---
-Title: Walkthrough: Deploy Microsoft .NET or Silverlight WebSocket Clients to iOS or Android Using Xamarin
+Title: Deploy Microsoft .NET or Silverlight WebSocket Clients to iOS or Android Using Xamarin
 Product: Gateway
 Section: windows
 DocType: Regular
